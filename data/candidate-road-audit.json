@@ -1,0 +1,550 @@
+[
+  {
+    "id": "raghuvir",
+    "cacheFile": "data/cache/audit-raghuvir-2c8bf7e3c96cee3d34e2.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;73.658,17.924;73.619,17.716;73.606744,17.707992;73.585,17.711;73.568,17.714;73.119329,17.770963?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:47:23.473Z",
+    "distanceKm": 307.7409,
+    "distanceBeforeEntryKm": 229.87640000000002,
+    "sectionKm": 12.3916,
+    "sectionDirectKm": 4.847009877774654,
+    "anchors": [
+      {
+        "coordinates": [
+          73.616792,
+          17.726437
+        ],
+        "snapDistanceM": 1178.640777,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.606724,
+          17.707987
+        ],
+        "snapDistanceM": 2.192349976,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.587446,
+          17.699106
+        ],
+        "snapDistanceM": 1341.718028,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.581673,
+          17.698492
+        ],
+        "snapDistanceM": 2247.052448,
+        "name": ""
+      }
+    ],
+    "audit": "Anchor 4 snapped 1342m: corridor review needed",
+    "sectionRoads": [
+      {
+        "name": "",
+        "distanceM": 5013.6
+      },
+      {
+        "name": "",
+        "distanceM": 2265.7
+      },
+      {
+        "name": "",
+        "distanceM": 1283.7
+      },
+      {
+        "name": "",
+        "ref": "MDR14",
+        "distanceM": 1836.6
+      },
+      {
+        "name": "",
+        "ref": "MDR14",
+        "distanceM": 1991.9
+      }
+    ]
+  },
+  {
+    "id": "pargad",
+    "cacheFile": "data/cache/audit-pargad-3db4dd341596937642b7.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;74.18,15.94;74.111,15.891;74.074,15.855;74.049,15.824;74.021,15.816;73.756392,15.543895?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:47:24.092Z",
+    "distanceKm": 524.9265,
+    "distanceBeforeEntryKm": 437.25329999999997,
+    "sectionKm": 26.777099999999997,
+    "sectionDirectKm": 6.730972773598758,
+    "anchors": [
+      {
+        "coordinates": [
+          74.067857,
+          15.855725
+        ],
+        "snapDistanceM": 662.7928171,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          74.049195,
+          15.824645
+        ],
+        "snapDistanceM": 74.3679207,
+        "name": "District Highway 76"
+      },
+      {
+        "coordinates": [
+          74.020692,
+          15.815658
+        ],
+        "snapDistanceM": 50.20853442,
+        "name": "Road to Bhekurli"
+      }
+    ],
+    "audit": "geometry checks passed",
+    "sectionRoads": [
+      {
+        "name": "",
+        "distanceM": 3893.7
+      },
+      {
+        "name": "District Highway 76",
+        "ref": "ODR",
+        "distanceM": 2105.8
+      },
+      {
+        "name": "District Highway 76",
+        "ref": "ODR",
+        "distanceM": 2105.8
+      },
+      {
+        "name": "",
+        "distanceM": 7896.7
+      },
+      {
+        "name": "",
+        "distanceM": 4195
+      },
+      {
+        "name": "Chakul Khumbawade Road",
+        "distanceM": 675.4
+      },
+      {
+        "name": "",
+        "distanceM": 4253.9
+      },
+      {
+        "name": "Road to Bhekurli",
+        "distanceM": 1650.9
+      }
+    ]
+  },
+  {
+    "id": "anashi",
+    "cacheFile": "data/cache/audit-anashi-7b23a3c9bb93732bbda2.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;74.508,15.64;74.479,15.162;74.385,15.004;74.361,14.9997;74.329,14.987;74.024,15.009?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:47:25.501Z",
+    "distanceKm": 577.1373000000001,
+    "distanceBeforeEntryKm": 500.13430000000005,
+    "sectionKm": 6.9167000000000005,
+    "sectionDirectKm": 4.372926538255528,
+    "anchors": [
+      {
+        "coordinates": [
+          74.383218,
+          15.007377
+        ],
+        "snapDistanceM": 419.9356828,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          74.361112,
+          15.000203
+        ],
+        "snapDistanceM": 56.94507004,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          74.342503,
+          15.007549
+        ],
+        "snapDistanceM": 2698.020082,
+        "name": ""
+      }
+    ],
+    "audit": "Anchor 5 snapped 2698m: corridor review needed",
+    "sectionRoads": [
+      {
+        "name": "",
+        "ref": "SH46",
+        "distanceM": 2401.7
+      },
+      {
+        "name": "",
+        "ref": "SH34",
+        "distanceM": 1328.7
+      },
+      {
+        "name": "",
+        "ref": "SH34",
+        "distanceM": 1484.1
+      },
+      {
+        "name": "",
+        "distanceM": 1702.2
+      }
+    ]
+  },
+  {
+    "id": "trimbak-jawhar",
+    "cacheFile": "data/cache/audit-trimbak-jawhar-5290e4483a57b158bd34.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;73.53,19.932;73.439,19.958;73.395,19.947;73.347,19.929;73.227,19.913;72.872,18.641?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:47:26.770Z",
+    "distanceKm": 479.9152,
+    "distanceBeforeEntryKm": 257.62359999999995,
+    "sectionKm": 14.490200000000002,
+    "sectionDirectKm": 10.605189990539914,
+    "anchors": [
+      {
+        "coordinates": [
+          73.440191,
+          19.969779
+        ],
+        "snapDistanceM": 1309.92676,
+        "name": "Jawhar Trimbhak Highway"
+      },
+      {
+        "coordinates": [
+          73.398413,
+          19.944542
+        ],
+        "snapDistanceM": 449.1408382,
+        "name": "Jawhar Trimbhak Highway"
+      },
+      {
+        "coordinates": [
+          73.34715,
+          19.931732
+        ],
+        "snapDistanceM": 302.8490203,
+        "name": ""
+      }
+    ],
+    "audit": "Anchor 2 snapped 1310m: corridor review needed",
+    "sectionRoads": [
+      {
+        "name": "Jawhar Trimbhak Highway",
+        "ref": "NH160A",
+        "distanceM": 7044.7
+      },
+      {
+        "name": "Jawhar Trimbhak Highway",
+        "ref": "NH160A",
+        "distanceM": 5008.8
+      },
+      {
+        "name": "",
+        "distanceM": 1920.7
+      },
+      {
+        "name": "",
+        "distanceM": 516
+      }
+    ]
+  },
+  {
+    "id": "madhe",
+    "cacheFile": "data/cache/audit-madhe-95debf52f33e7dce6317.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;73.58,18.204;73.5744,18.1975;73.562,18.191;73.021801,17.992496?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:51:19.502Z",
+    "distanceKm": 300.4251,
+    "distanceBeforeEntryKm": 64.13969999999999,
+    "sectionKm": 139.8713,
+    "sectionDirectKm": 2.5455171955440776,
+    "anchors": [
+      {
+        "coordinates": [
+          73.578614,
+          18.204247
+        ],
+        "snapDistanceM": 149.1244163,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.574044,
+          18.198742
+        ],
+        "snapDistanceM": 142.5340677,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.56308,
+          18.186746
+        ],
+        "snapDistanceM": 484.5093464,
+        "name": ""
+      }
+    ],
+    "audit": "geometry checks passed",
+    "sectionRoads": [
+      {
+        "name": "",
+        "distanceM": 941.8
+      },
+      {
+        "name": "",
+        "distanceM": 1458.2
+      },
+      {
+        "name": "",
+        "ref": "SH65",
+        "distanceM": 9166.6
+      },
+      {
+        "name": "",
+        "ref": "SH65",
+        "distanceM": 7819.7
+      },
+      {
+        "name": "",
+        "ref": "SH65",
+        "distanceM": 14840.5
+      },
+      {
+        "name": "",
+        "ref": "SH65",
+        "distanceM": 1617.4
+      },
+      {
+        "name": "",
+        "ref": "SH65",
+        "distanceM": 14255.6
+      },
+      {
+        "name": "",
+        "distanceM": 500.3
+      },
+      {
+        "name": "Pune Bengaluru Highway",
+        "ref": "NH48",
+        "distanceM": 2545.9
+      },
+      {
+        "name": "Pune Bengaluru Highway",
+        "distanceM": 1680.5
+      },
+      {
+        "name": "",
+        "ref": "SH63",
+        "distanceM": 13147.7
+      },
+      {
+        "name": "",
+        "distanceM": 656.4
+      },
+      {
+        "name": "",
+        "distanceM": 762.1
+      },
+      {
+        "name": "",
+        "distanceM": 8876
+      },
+      {
+        "name": "",
+        "distanceM": 16062
+      },
+      {
+        "name": "",
+        "distanceM": 4664.3
+      },
+      {
+        "name": "",
+        "distanceM": 17523.2
+      },
+      {
+        "name": "Varandha Ghat",
+        "ref": "NH965DD",
+        "distanceM": 8799.7
+      },
+      {
+        "name": "",
+        "distanceM": 2574.1
+      },
+      {
+        "name": "",
+        "distanceM": 2943.6
+      },
+      {
+        "name": "",
+        "distanceM": 5525.1
+      },
+      {
+        "name": "",
+        "distanceM": 1074.2
+      },
+      {
+        "name": "",
+        "distanceM": 1808.4
+      },
+      {
+        "name": "",
+        "distanceM": 511.1
+      }
+    ]
+  },
+  {
+    "id": "naneghat",
+    "cacheFile": "data/cache/audit-naneghat-10b790389ca6dd02ea5e.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;73.683,19.294;73.6755,19.292;73.656,19.298;72.872,18.641?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:47:29.304Z",
+    "distanceKm": 337.0763,
+    "distanceBeforeEntryKm": 120.26589999999999,
+    "sectionKm": 62.232299999999995,
+    "sectionDirectKm": 3.622596891901308,
+    "anchors": [
+      {
+        "coordinates": [
+          73.683295,
+          19.293049
+        ],
+        "snapDistanceM": 109.7435769,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.675526,
+          19.292057
+        ],
+        "snapDistanceM": 6.87612898,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          73.652124,
+          19.307045
+        ],
+        "snapDistanceM": 1080.923556,
+        "name": "NH222"
+      }
+    ],
+    "audit": "geometry checks passed",
+    "sectionRoads": [
+      {
+        "name": "",
+        "distanceM": 887.6
+      },
+      {
+        "name": "",
+        "distanceM": 2238.2
+      },
+      {
+        "name": "",
+        "distanceM": 1276.7
+      },
+      {
+        "name": "",
+        "distanceM": 10507.7
+      },
+      {
+        "name": "",
+        "distanceM": 4072.6
+      },
+      {
+        "name": "",
+        "distanceM": 4949.4
+      },
+      {
+        "name": "",
+        "distanceM": 3666.2
+      },
+      {
+        "name": "NH222",
+        "ref": "NH61",
+        "distanceM": 34446.5
+      }
+    ]
+  },
+  {
+    "id": "mangeli",
+    "cacheFile": "data/cache/audit-mangeli-a2f617bc6af7ef229875.json",
+    "requestUrl": "https://routing.openstreetmap.de/routed-car/route/v1/driving/73.854499,18.519479;74.285,15.681;74.15,15.7;74.13,15.694;74.10228,15.69019;73.756392,15.543895?overview=full&geometries=geojson&steps=true&continue_straight=false",
+    "retrievedAt": "2026-11-10T17:54:14.929Z",
+    "distanceKm": 512.2682,
+    "distanceBeforeEntryKm": 423.7242,
+    "sectionKm": 35.9422,
+    "sectionDirectKm": 4.966783810201463,
+    "anchors": [
+      {
+        "coordinates": [
+          74.148458,
+          15.691688
+        ],
+        "snapDistanceM": 934.5052321,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          74.128358,
+          15.695612
+        ],
+        "snapDistanceM": 250.6099291,
+        "name": ""
+      },
+      {
+        "coordinates": [
+          74.102062,
+          15.691483
+        ],
+        "snapDistanceM": 144.9735815,
+        "name": ""
+      }
+    ],
+    "audit": "geometry checks passed",
+    "sectionRoads": [
+      {
+        "name": "",
+        "distanceM": 507.8
+      },
+      {
+        "name": "",
+        "distanceM": 2967.9
+      },
+      {
+        "name": "",
+        "ref": "NH748AA",
+        "distanceM": 3375.1
+      },
+      {
+        "name": "",
+        "distanceM": 6557.9
+      },
+      {
+        "name": "",
+        "distanceM": 3363.6
+      },
+      {
+        "name": "",
+        "distanceM": 1212.9
+      },
+      {
+        "name": "",
+        "distanceM": 9479.7
+      },
+      {
+        "name": "",
+        "distanceM": 2174.3
+      },
+      {
+        "name": "",
+        "distanceM": 6149.2
+      }
+    ]
+  }
+]

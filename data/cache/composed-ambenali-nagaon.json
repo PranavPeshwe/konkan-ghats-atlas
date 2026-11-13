@@ -1,0 +1,38 @@
+{
+  "requestUrl": "osrm-cache-composition:ambenali-nagaon",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-alibag-a1a176bdc268be653508.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-alibag-a1a176bdc268be653508.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-alibag-a1a176bdc268be653508.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-alibag-a1a176bdc268be653508.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-alibag-a1a176bdc268be653508.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-alibag-nagaon-fe0fa0b43f88fd076047.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

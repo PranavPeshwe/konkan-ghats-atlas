@@ -1,0 +1,38 @@
+{
+  "requestUrl": "osrm-cache-composition:varandha-akshi",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/coverage-road-varandha-alibag-569a0def3a4940ac1b79.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-varandha-alibag-569a0def3a4940ac1b79.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-varandha-alibag-569a0def3a4940ac1b79.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-varandha-alibag-569a0def3a4940ac1b79.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-varandha-alibag-569a0def3a4940ac1b79.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-alibag-akshi-cf9ac3059f4d11f6d237.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

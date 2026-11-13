@@ -1,0 +1,122 @@
+{
+  "researchDate": "2026-11-11",
+  "sources": [
+    { "id": "guide-forest-glossary", "title": "Maharashtra Forest Department: Satara working-plan glossary", "url": "https://www.mahaforest.gov.in/writereaddata/managementpdf/1437478935Satara%20Vol.%20I.pdf", "locator": "Glossary of local terms, printed p. xxxvi", "review": "Government publication: definition of Ghat." },
+    { "id": "guide-nasik-roads", "title": "Nasik District Gazetteer: Roads", "url": "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Nasik/010%20Commu/003%20Roads.htm", "locator": "Historical roads; Thal pass and Bombay-Agra road", "review": "Indexed government text; historical descriptions, not modern condition reports." },
+    { "id": "guide-satara-roads", "title": "Bombay Presidency Gazetteer, Satara: Roads and passes", "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Satara%20District/trade_roads.html", "locator": "PASSES: VARANDHA, FITZ GERALD and KUMBHARLI", "review": "Indexed government text. Conflicting Fitzgerald opening dates in other gazetteer passages are not repeated as settled fact." },
+    { "id": "guide-pratapgad", "title": "Satara Gazetteer: Pratapgad", "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/SATARA/places_Pratapgad.html", "locator": "Description and History", "review": "Indexed government account explicitly relates the fort to the Par pass and Fitzgerald road." },
+    { "id": "guide-pratapgad-tradition", "title": "Maharashtra Tourism: Pratapgad", "url": "https://maharashtratourism.gov.in/fort/pratapgad/", "locator": "The History; An Experience for Visitors", "review": "Government tourism account. Its Bhavani-sword account is a belief, not independently established history." },
+    { "id": "guide-poona-relief", "title": "Bombay Presidency Gazetteer, Poona: Hills", "url": "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Poona%20District/Poona-I/gen_hills.html", "locator": "Main range: Nag-phani, Duke's Nose and Tamhini", "review": "Indexed government text; Nag-phani translation concerns a landmark, not the name Bor." },
+    { "id": "guide-rajmachi", "title": "Bombay Presidency Gazetteer, Poona: Rajmachi", "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Poona%20District/places_r.html", "locator": "RAJMACHI FORT: Description", "review": "Government account locates Rajmachi north of Bor; no claim that the modern road passes through the fort." },
+    { "id": "guide-bor-rail", "title": "MMR Heritage Conservation Society: Raigad heritage listing", "url": "https://mmrhcs.org.in/images/documents/projects/Raigad%20district%20rural/MMR%20-%20PDF/000-Raigad%20Heritage-Draft%20List%20Report%2015.06.10.pdf", "locator": "INFRASTRUCTURAL: THE BHOR GHAT ASCENT, report p. 6", "review": "Public heritage-planning report: railway ascent opened May 1863. Railway history is not substituted for road engineering." },
+    { "id": "guide-ratnagiri-trade", "title": "Bombay Presidency Gazetteer, Ratnagiri: Trade communications", "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Ratnagiri%20and%20Sawantwadi/ratnagiri/trade1_communications.html", "locator": "Hill Passes; historical cart-road and trade descriptions", "review": "Indexed government historical text. Historical trading routes are not asserted identical to current road alignments." },
+    { "id": "guide-amboli-trade", "title": "Bombay Presidency Gazetteer, Savantvadi: Trade and roads", "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Ratnagiri%20and%20Sawantwadi/savantvadi/trade2_roads.html", "locator": "Amboli Pass Trade, 1875-76 and 1876-77", "review": "Historical government account of pack-bullock traffic and the change in grain trade during famine." },
+    { "id": "guide-kolhapur-hills", "title": "Bombay Presidency Gazetteer, Kolhapur: Hills and passes", "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Kolhapur%20District/gen_hills.html", "locator": "Bavda, Sivgad and Phonda passes", "review": "Government text distinguishes the Sivgad pass from Phonda; proximity is not proof of guarding the modern Phonda road." },
+    { "id": "guide-gagan", "title": "Kolhapur Tourism: Gaganbawada", "url": "https://www.kolhapurtourism.org/our-destination/gaganbawada/", "locator": "Project Description: Karul and Bhuibawada branches; Gagangad", "review": "Local tourism body, corroborated by the existing government Sindhudurg master-plan inventory. Used only for branch destinations and nearby fort, not a fort-guarding role." },
+    { "id": "guide-pargad-order", "title": "Government of Maharashtra: Pargad protected-monument notification", "url": "https://gr.maharashtra.gov.in/Site/Upload/Government%20Resolutions/English/202409031715019823.pdf", "locator": "English SCHEDULE: Pargad Fort, Mauje Mirvel", "review": "2024 government monument schedule gives the fort's monitoring purpose and a 1674 construction date; this source's attribution is explicit." },
+    { "id": "guide-goa-roads", "title": "Goa PWD: Citizens Charter 2021", "url": "https://www.goa.gov.in/wp-content/uploads/2021/04/CitizensCharter2021-PWD_compressed.pdf", "locator": "Annexure B, pp. 4-5: Sankhali-Chorla and Anmod-Ponda", "review": "Dated government route directory. Route labels are historical documentary evidence, not current road-width or closure claims." },
+    { "id": "guide-anmod-parliament", "title": "Ministry of Road Transport: Goa-Belagavi Highway via Anmod Ghat", "url": "https://sansad.in/getFile/annex/267/AU2165_EG6gDD.pdf?source=pqars", "locator": "Rajya Sabha question 2165, answered 19 March 2025", "review": "Ministerial answer documents NH748's Goa-Belagavi connection. Its project forecasts are not repeated as current status." },
+    { "id": "guide-jangli-story", "title": "Satara Gazetteer: Places, Jangli Jayagad", "url": "https://gazetteers.maharashtra.gov.in/Satara/english/SDGrevised/19%20PLACES.pdf", "locator": "JANGLI JAYAGAD FORT", "review": "Government gazetteer records a local story about Tai Telin; the story is explicitly not treated as independently verified history or a ghat-origin legend." },
+    { "id": "guide-tillari-hydrology", "title": "Maharashtra Hydrology Project: Kokan annual report 2021-22", "url": "https://www.mahahp.gov.in/images/Publication%2001072019%20onwards/DSR_2021-22/ADHSR%20Kokan%202021-22.pdf", "locator": "Printed p. 100, Tillari Main, Forebay and Interstate project rows", "review": "Dated government hydrology inventory used for regional infrastructure context, not a road-opening date." }
+  ],
+  "terminology": {
+    "text": "The Maharashtra Forest Department's glossary uses ghat for a road with a steep gradient. An individual ghat's name meaning is not inferred just from a similar-sounding word.",
+    "sourceIds": ["guide-forest-glossary"],
+    "locator": "Glossary of local terms, printed p. xxxvi"
+  },
+  "ghats": {
+    "amboli-nashik": {
+      "nameNotes": { "text": "This atlas's northern Amboli is the Trimbakeshwar-Jawhar corridor; it is not the Sawantwadi Amboli pass.", "sourceIds": ["trimbak-road", "marathi-ghats"], "locator": "Trimbakeshwar-Jawhar road description and northern pass inventory", "kind": "documented-identity" },
+      "significance": { "text": "The Zilla Parishad describes the scenic Trimbakeshwar-Jawhar road, establishing a northern Maharashtra-side coastal connection.", "sourceIds": ["trimbak-road"], "locator": "Trimbakeshwar Panchayat Samiti: Jawhar road", "kind": "documented-context" }
+    },
+    "kasara": {
+      "nameNotes": { "text": "Kasara and Thal are names for this northern gateway; neither name's etymology is established here.", "sourceIds": ["botanical"], "locator": "Geography introduction: Kasara or Thal Ghat", "kind": "documented-identity" },
+      "history": { "text": "The Nasik Gazetteer describes the Thal pass as extremely difficult for loaded carts in 1841, before the improved Bombay-Agra road.", "sourceIds": ["guide-nasik-roads"], "locator": "Historical roads: 1841 and the Thal pass", "kind": "historical-account" },
+      "significance": { "text": "The same road account places Kasara at the foot of the Thal pass on the Bombay-Agra connection.", "sourceIds": ["guide-nasik-roads"], "locator": "Chief provincial road from Kasara", "kind": "historical-account" }
+    },
+    "malshej": {
+      "history": { "text": "Maharashtra Tourism associates the region with Maratha strategic movement and older routes between the plateau and coast; no ancient date is assigned to this modern road.", "sourceIds": ["malshej"], "locator": "Historical Significance", "kind": "historical-context" },
+      "forts": { "text": "Harishchandragad is listed as a nearby historic fort. The reviewed tourism account does not establish that it guarded this exact modern road.", "sourceIds": ["malshej"], "locator": "Attractions Around Malshej Ghat: Harishchandragad", "kind": "nearby-fort-only" },
+      "legends": { "text": "For nearby Ajoba Hill, the tourism department records a Ramayana tradition connecting Sita with Valmiki's ashram. This is a neighbouring landscape tradition, not a proven event or the origin of Malshej's name.", "sourceIds": ["malshej"], "locator": "Ajoba Hill Fort", "kind": "recorded-tradition" },
+      "significance": { "text": "Government tourism identifies the pass with escarpment scenery, waterfalls and routes between the plateau and coastal region.", "sourceIds": ["malshej"], "locator": "Introduction and Historical Significance", "kind": "documented-context" }
+    },
+    "bor": {
+      "nameNotes": { "text": "The Botanical Survey lists Bor and Khandala as names for the Bombay-Pune crossing.", "sourceIds": ["botanical"], "locator": "Geography introduction: Bor or Khandala", "kind": "documented-identity" },
+      "nameMeaning": { "text": "A nearby landmark has a documented meaning: the Poona Gazetteer translates Nag-phani as Cobra's Hood, also called Duke's Nose. This does not explain the name Bor.", "sourceIds": ["guide-poona-relief"], "locator": "Main range, south of Rajmachi", "kind": "associated-landmark-name" },
+      "history": { "text": "The regional heritage listing dates the Karjat-Khandala railway ascent to May 1863. It is an engineering companion to the road crossing, not the construction date of today's road.", "sourceIds": ["guide-bor-rail"], "locator": "The Bhor Ghat Ascent, report p. 6", "kind": "historical-account" },
+      "forts": { "text": "The Poona Gazetteer places Rajmachi north of Bor pass and explains its name as Royal Terrace. This is a documented fort association, not proof that the modern alignment passes through it.", "sourceIds": ["guide-rajmachi"], "locator": "Rajmachi Fort: Description", "kind": "nearby-fort-only" },
+      "significance": { "text": "Bor is the documented Bombay-Pune gateway linking the Konkan lowland with the plateau.", "sourceIds": ["botanical"], "locator": "Geography introduction", "kind": "documented-context" }
+    },
+    "tamhini": {
+      "history": { "text": "The older Poona Gazetteer already names Tamhini at the district's southwestern corner. That geographical mention does not date the construction of the present motor road.", "sourceIds": ["guide-poona-relief"], "locator": "Main range: Tamhini", "kind": "historical-geography" },
+      "significance": { "text": "The Konkan Divisional Commissioner locates the modern ghat road near Mulshi Dam and the Mangaon side, explaining its Pune-to-Raigad role.", "sourceIds": ["tamhini"], "locator": "Official Tamhini Ghat address", "kind": "documented-context" }
+    },
+    "varandha": {
+      "history": { "text": "The Satara Gazetteer dates the made Varandha pass road's construction from 1851 to 1857.", "sourceIds": ["guide-satara-roads"], "locator": "PASSES: VARANDHA", "kind": "historical-account" },
+      "significance": { "text": "The gazetteer identifies Varandha as an important wheeled outlet towards Mahad, crossing the Sahyadri barrier between inland markets and the coast.", "sourceIds": ["guide-satara-roads"], "locator": "Roads: coast connections and Varandha", "kind": "historical-account" }
+    },
+    "ambenali": {
+      "nameNotes": { "text": "Official geography reconciles Fitzgerald, Ambenali and Radtondi spellings; an explanation of the personal or place-name origin is not established here.", "sourceIds": ["botanical", "marathi-ghats"], "locator": "Fitzgerald/Ambenali and Radtondi entries", "kind": "documented-identity" },
+      "history": { "text": "The Satara Gazetteer describes the Fitzgerald road as a nineteenth-century wheeled connection to Mahad. Its differing opening dates across passages are not treated here as a settled year.", "sourceIds": ["guide-satara-roads"], "locator": "Roads and FITZ GERALD pass", "kind": "historical-account" },
+      "forts": { "text": "Pratapgad is explicitly associated with defending the historic Par pass. The gazetteer also describes the Fitzgerald approach; the old Par pass is not equated with every part of today's Ambenali road.", "sourceIds": ["guide-pratapgad"], "locator": "Description and History", "kind": "documented-pass-defence" },
+      "legends": { "text": "Maharashtra Tourism records a belief connecting Pratapgad's Bhavani temple with the gifting of Shivaji's sword. It is presented as a recorded belief, not a verified historical event.", "sourceIds": ["guide-pratapgad-tradition"], "locator": "An Experience for Visitors: Bhavani Temple", "kind": "recorded-tradition" },
+      "significance": { "text": "Official geographic accounts identify this as the Mahabaleshwar-to-Konkan connection, distinct from the neighbouring historic Par route.", "sourceIds": ["botanical", "guide-pratapgad"], "locator": "Fitzgerald/Ambenali entry; Pratapgad approach", "kind": "documented-context" }
+    },
+    "kumbharli": {
+      "history": { "text": "The Satara Gazetteer dates construction of the Kumbharli road from 1855 to 1864, connecting the Karad side with Chiplun.", "sourceIds": ["guide-satara-roads"], "locator": "PASSES: KUMBHARLI", "kind": "historical-account" },
+      "forts": { "text": "The Satara Gazetteer describes Jangli Jayagad on a spur near Helvak. It does not establish a guarding role for this exact modern alignment.", "sourceIds": ["guide-jangli-story"], "locator": "Jangli Jayagad Fort", "kind": "nearby-fort-only" },
+      "legends": { "text": "The gazetteer explicitly calls Tai Telin's reported possession of Jangli Jayagad in 1810 a local story. It is a nearby fort tradition, not an independently proven ghat-origin account.", "sourceIds": ["guide-jangli-story"], "locator": "Jangli Jayagad: local story", "kind": "recorded-tradition" },
+      "significance": { "text": "The historical road account identifies Kumbharli as a major outlet carrying inland exports towards the coast.", "sourceIds": ["guide-satara-roads"], "locator": "Karad-Kumbharli road", "kind": "historical-account" }
+    },
+    "amba": {
+      "history": { "text": "The Ratnagiri Gazetteer lists Amba among the main cart-road openings serving coastal trade.", "sourceIds": ["guide-ratnagiri-trade"], "locator": "Hill Passes: AMBA", "kind": "historical-account" },
+      "forts": { "text": "The historical pass description locates Vishalgad at the mouth of Amba's older routes, explaining a fort-road relationship without claiming an identical modern alignment.", "sourceIds": ["guide-ratnagiri-trade"], "locator": "Clunes account of AMBA and Vishalgad", "kind": "documented-fort-road-association" },
+      "significance": { "text": "The same account links Amba with the Sangameshwar, Ratnagiri and Rajapur trading side.", "sourceIds": ["guide-ratnagiri-trade"], "locator": "Main cart-road openings", "kind": "historical-account" }
+    },
+    "anuskura": {
+      "nameNotes": { "text": "The older gazetteer uses the spelling Anaskura; this records a historical spelling, not a translation of the name.", "sourceIds": ["guide-ratnagiri-trade"], "locator": "Hill Passes: ANASKURA", "kind": "documented-identity" },
+      "history": { "text": "Anaskura is described as a main through-trade route towards Rajapur in the older Ratnagiri Gazetteer.", "sourceIds": ["guide-ratnagiri-trade"], "locator": "Passes between Amba and Phonda", "kind": "historical-account" },
+      "significance": { "text": "Its documented trading connection helps explain why this inland-to-Rajapur corridor matters beyond today's beach itineraries.", "sourceIds": ["guide-ratnagiri-trade"], "locator": "ANASKURA", "kind": "historical-context" }
+    },
+    "bhuibawada": {
+      "significance": { "text": "The Gaganbawada tourism account distinguishes this branch towards Kharepatan-Rajapur from Karul's Talere-Kankavli branch.", "sourceIds": ["guide-gagan", "sindhudurg-plan"], "locator": "Gaganbawada: two branches", "kind": "documented-context" },
+      "forts": { "text": "Gagangad is documented near Gaganbawada. The reviewed account establishes proximity, not a proven guarding role over this modern road.", "sourceIds": ["guide-gagan"], "locator": "Gagangad near Gaganbawada", "kind": "nearby-fort-only" }
+    },
+    "karul": {
+      "significance": { "text": "The Gaganbawada account identifies Karul's Talere-Kankavli branch separately from the Bhuibawada road towards Rajapur.", "sourceIds": ["guide-gagan", "sindhudurg-plan"], "locator": "Gaganbawada: two branches", "kind": "documented-context" },
+      "forts": { "text": "Gagangad is the documented nearby hill fort; proximity is not presented as evidence that it guarded this exact road.", "sourceIds": ["guide-gagan"], "locator": "Gagangad near Gaganbawada", "kind": "nearby-fort-only" }
+    },
+    "phonda": {
+      "history": { "text": "The Kolhapur Gazetteer records an artillery detachment descending Phonda around 1820, illustrating the pass's historical transport role.", "sourceIds": ["guide-kolhapur-hills"], "locator": "PHONDA pass", "kind": "historical-account" },
+      "forts": { "text": "The same account places Sivgad fort by the separate Sivgad pass, near Phonda. It does not establish that the fort guarded today's Phonda alignment.", "sourceIds": ["guide-kolhapur-hills"], "locator": "SIVGAD and PHONDA entries", "kind": "nearby-fort-only" },
+      "significance": { "text": "Phonda is identified as a major historical opening from the Deccan towards Malvan.", "sourceIds": ["guide-kolhapur-hills"], "locator": "PHONDA pass", "kind": "historical-account" }
+    },
+    "amboli": {
+      "nameNotes": { "text": "The Savantvadi Gazetteer also calls the older Amboli route Parpoli; this is a documented alias, not a name etymology.", "sourceIds": ["guide-amboli-trade"], "locator": "Old Parpoli pass and Amboli Pass Trade", "kind": "documented-identity" },
+      "history": { "text": "The gazetteer describes pack-bullock grain traffic over the old Parpoli route and a reversal towards imported food during the 1876-77 famine.", "sourceIds": ["guide-amboli-trade"], "locator": "Trade and Amboli Pass Trade, 1875-77", "kind": "historical-account" },
+      "significance": { "text": "This account connects the pass with the Vengurla trading network, giving the coastal approach an economic history as well as a landscape story.", "sourceIds": ["guide-amboli-trade"], "locator": "Trade through Vengurla", "kind": "historical-account" }
+    },
+    "pargad": {
+      "history": { "text": "The Maharashtra government's 2024 monument schedule attributes Pargad's construction to Shivaji in 1674 and names Raiba Malusare as its first killedar.", "sourceIds": ["guide-pargad-order"], "locator": "English Schedule: Particulars", "kind": "attributed-government-account" },
+      "forts": { "text": "The notification explicitly says Pargad monitored Portuguese movement in Goa. This establishes a regional watch role, not that every modern road bend is historical.", "sourceIds": ["guide-pargad-order"], "locator": "English Schedule: purpose of the fort", "kind": "documented-regional-watch" },
+      "significance": { "text": "The same legal schedule locates the fort at Mirvel, connecting the atlas's corridor name with a documented borderland monument.", "sourceIds": ["guide-pargad-order"], "locator": "English Schedule: Locality", "kind": "documented-context" }
+    },
+    "tillari": {
+      "history": { "text": "Maharashtra's 2021-22 hydrology report lists multiple Tillari projects, including Main, Forebay and Interstate; the road is not assumed to have the same construction date as a dam.", "sourceIds": ["guide-tillari-hydrology"], "locator": "Kokan annual hydrological status report, p. 100", "kind": "dated-regional-context" },
+      "significance": { "text": "PWD's published road inventory identifies the Kolhapur-Chandgad-Tillari-Dodamarg corridor, a distinct link to the southern Konkan.", "sourceIds": ["tillari-road"], "locator": "Roads and bridges budget 2021-22, item 701", "kind": "documented-context" }
+    },
+    "chorla": {
+      "history": { "text": "Goa PWD's 2021 charter records the Sankhali-Chorla connection. That is dated documentary evidence, not a claim about when the pass was first used.", "sourceIds": ["guide-goa-roads"], "locator": "Annexure B, p. 4: Sankhali-Chorla", "kind": "dated-road-record" },
+      "significance": { "text": "The charter identifies a separate Goa-side approach through Sankhali, distinguishing Chorla from the Anmod-Ponda corridor.", "sourceIds": ["guide-goa-roads"], "locator": "Annexure B, pp. 4-5", "kind": "documented-context" }
+    },
+    "anmod": {
+      "history": { "text": "A March 2025 ministerial answer describes the Goa-Belagavi connection via Anmod as NH748. No old-pass founding date is inferred.", "sourceIds": ["guide-anmod-parliament"], "locator": "Rajya Sabha question 2165, answer (a)-(b)", "kind": "dated-road-record" },
+      "significance": { "text": "The ministry identifies Anmod as part of the Goa-Belagavi highway, while Goa PWD documents the Anmod-Ponda section.", "sourceIds": ["guide-anmod-parliament", "guide-goa-roads"], "locator": "Question 2165; Annexure B, p. 5", "kind": "documented-context" }
+    },
+    "anashi": {
+      "nameNotes": { "text": "Official forest records use Anashi as a range name; the reviewed records do not establish the word's etymology.", "sourceIds": ["anashi-forest"], "locator": "Kali reserve plan: Anashi range", "kind": "documented-identity" },
+      "history": { "text": "The 1961 North Kanara district handbook identifies Anashi on the Belgaum-Kadra PWD road, providing a dated road-history reference.", "sourceIds": ["anashi-road"], "locator": "Road directory: Anashi, Belgaum-Kadra road", "kind": "historical-road-record" },
+      "significance": { "text": "The documented Kadra-side connection explains this atlas's southern approach through neighbouring Karnataka rather than an invented direct Maharashtra pass.", "sourceIds": ["anashi-road"], "locator": "Belgaum-Kadra road directory", "kind": "documented-context" }
+    }
+  }
+}

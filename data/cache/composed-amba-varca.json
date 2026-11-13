@@ -1,0 +1,38 @@
+{
+  "requestUrl": "osrm-cache-composition:amba-varca",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/coverage-road-amba-colva-ca645697cec506e0416f.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-amba-colva-ca645697cec506e0416f.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-amba-colva-ca645697cec506e0416f.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-amba-colva-ca645697cec506e0416f.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-amba-colva-ca645697cec506e0416f.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-colva-varca-3c8bbb89c091d6591430.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

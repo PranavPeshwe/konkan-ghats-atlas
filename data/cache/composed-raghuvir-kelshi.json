@@ -1,0 +1,53 @@
+{
+  "requestUrl": "osrm-cache-composition:raghuvir-kelshi",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 5,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 6,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/raghuvir-anjarle-a31a153cb90582f981f5.json",
+      "legIndex": 7,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-anjarle-kelshi-ca79053062c80d0ef40d.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

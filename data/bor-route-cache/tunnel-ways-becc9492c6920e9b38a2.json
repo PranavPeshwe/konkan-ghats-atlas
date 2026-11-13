@@ -1,0 +1,2125 @@
+{
+  "requestUrl": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3Bway%5B%22highway%22%3D%22motorway%22%5D(18.72%2C73.43%2C18.76%2C73.48)%3Bout%20geom%3B",
+  "retrievedAt": "2026-11-11T16:35:58.242Z",
+  "response": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-11-11T16:34:37Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "way",
+        "id": 130710858,
+        "bounds": {
+          "minlat": 18.7448341,
+          "minlon": 73.4301215,
+          "maxlat": 18.7503565,
+          "maxlon": 73.4309488
+        },
+        "nodes": [
+          533743538,
+          533743540,
+          533743541,
+          2303378131,
+          533743542,
+          2303378132,
+          533743543,
+          533743545
+        ],
+        "geometry": [
+          {
+            "lat": 18.7448341,
+            "lon": 73.4301215
+          },
+          {
+            "lat": 18.7478217,
+            "lon": 73.4307334
+          },
+          {
+            "lat": 18.7485333,
+            "lon": 73.43088
+          },
+          {
+            "lat": 18.7488676,
+            "lon": 73.4309259
+          },
+          {
+            "lat": 18.7491946,
+            "lon": 73.4309488
+          },
+          {
+            "lat": 18.749562,
+            "lon": 73.4309301
+          },
+          {
+            "lat": 18.7499405,
+            "lon": 73.4308587
+          },
+          {
+            "lat": 18.7503565,
+            "lon": 73.4307509
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 130710861,
+        "bounds": {
+          "minlat": 18.7441084,
+          "minlon": 73.4299728,
+          "maxlat": 18.7448341,
+          "maxlon": 73.4301215
+        },
+        "nodes": [
+          533743537,
+          533743538
+        ],
+        "geometry": [
+          {
+            "lat": 18.7441084,
+            "lon": 73.4299728
+          },
+          {
+            "lat": 18.7448341,
+            "lon": 73.4301215
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "asphalt",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 130710863,
+        "bounds": {
+          "minlat": 18.7440864,
+          "minlon": 73.4301423,
+          "maxlat": 18.7448101,
+          "maxlon": 73.4302905
+        },
+        "nodes": [
+          533743574,
+          533743575
+        ],
+        "geometry": [
+          {
+            "lat": 18.7448101,
+            "lon": 73.4302905
+          },
+          {
+            "lat": 18.7440864,
+            "lon": 73.4301423
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "asphalt",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 130710867,
+        "bounds": {
+          "minlat": 18.7334298,
+          "minlon": 73.4437944,
+          "maxlat": 18.7516048,
+          "maxlon": 73.5327506
+        },
+        "nodes": [
+          245650782,
+          13664954477,
+          533745319,
+          2303378075,
+          245650786,
+          2303378079,
+          533745324,
+          245650800,
+          245650840,
+          2303378112,
+          13664954479,
+          2303378113,
+          533746729,
+          245650847,
+          12869258154,
+          506275297,
+          506275294,
+          13664954481,
+          12367020704,
+          12367020709,
+          245650883,
+          2303378124,
+          13664954484,
+          245650902,
+          2303378127,
+          245650945,
+          2303378152,
+          2303378155,
+          533748525,
+          2303378156,
+          533748523,
+          245650943,
+          13677324779,
+          2303378150,
+          2303378144,
+          245650926,
+          2303378139,
+          533748520,
+          2303378137,
+          2303378135,
+          533748519,
+          2303378130,
+          245650908,
+          2303378125,
+          245650881,
+          2303378119,
+          533748516,
+          533748514,
+          2303378117,
+          533748513,
+          2303378115,
+          245650861,
+          533749068,
+          533749066,
+          2303378109,
+          533749065,
+          2303378106
+        ],
+        "geometry": [
+          {
+            "lat": 18.7334853,
+            "lon": 73.4437944
+          },
+          {
+            "lat": 18.7334365,
+            "lon": 73.4444307
+          },
+          {
+            "lat": 18.7334298,
+            "lon": 73.4446265
+          },
+          {
+            "lat": 18.7334697,
+            "lon": 73.4452338
+          },
+          {
+            "lat": 18.7335588,
+            "lon": 73.4458987
+          },
+          {
+            "lat": 18.7336787,
+            "lon": 73.4464681
+          },
+          {
+            "lat": 18.7338389,
+            "lon": 73.4470103
+          },
+          {
+            "lat": 18.7341491,
+            "lon": 73.4479387
+          },
+          {
+            "lat": 18.7407111,
+            "lon": 73.4672196
+          },
+          {
+            "lat": 18.7409836,
+            "lon": 73.4680697
+          },
+          {
+            "lat": 18.7410876,
+            "lon": 73.4684445
+          },
+          {
+            "lat": 18.7411746,
+            "lon": 73.4687577
+          },
+          {
+            "lat": 18.7413419,
+            "lon": 73.4694851
+          },
+          {
+            "lat": 18.7414737,
+            "lon": 73.4701577
+          },
+          {
+            "lat": 18.7433521,
+            "lon": 73.4806575
+          },
+          {
+            "lat": 18.7435468,
+            "lon": 73.481746
+          },
+          {
+            "lat": 18.7440138,
+            "lon": 73.4843568
+          },
+          {
+            "lat": 18.7469928,
+            "lon": 73.5010099
+          },
+          {
+            "lat": 18.7470274,
+            "lon": 73.5012036
+          },
+          {
+            "lat": 18.7470283,
+            "lon": 73.5012087
+          },
+          {
+            "lat": 18.7475399,
+            "lon": 73.504048
+          },
+          {
+            "lat": 18.7476949,
+            "lon": 73.5049367
+          },
+          {
+            "lat": 18.7477956,
+            "lon": 73.5054363
+          },
+          {
+            "lat": 18.7478392,
+            "lon": 73.5056529
+          },
+          {
+            "lat": 18.7480438,
+            "lon": 73.5064846
+          },
+          {
+            "lat": 18.7512035,
+            "lon": 73.5180247
+          },
+          {
+            "lat": 18.7513692,
+            "lon": 73.5187648
+          },
+          {
+            "lat": 18.751475,
+            "lon": 73.5193545
+          },
+          {
+            "lat": 18.7515603,
+            "lon": 73.5200889
+          },
+          {
+            "lat": 18.7516048,
+            "lon": 73.5208963
+          },
+          {
+            "lat": 18.7515733,
+            "lon": 73.521967
+          },
+          {
+            "lat": 18.751475,
+            "lon": 73.5228522
+          },
+          {
+            "lat": 18.7514589,
+            "lon": 73.5229421
+          },
+          {
+            "lat": 18.7513561,
+            "lon": 73.5235152
+          },
+          {
+            "lat": 18.7511855,
+            "lon": 73.5242007
+          },
+          {
+            "lat": 18.7510314,
+            "lon": 73.5247047
+          },
+          {
+            "lat": 18.7507792,
+            "lon": 73.5254038
+          },
+          {
+            "lat": 18.7504179,
+            "lon": 73.526206
+          },
+          {
+            "lat": 18.7500991,
+            "lon": 73.5268226
+          },
+          {
+            "lat": 18.7498243,
+            "lon": 73.5272834
+          },
+          {
+            "lat": 18.7494699,
+            "lon": 73.5278218
+          },
+          {
+            "lat": 18.7488652,
+            "lon": 73.5285903
+          },
+          {
+            "lat": 18.748351,
+            "lon": 73.5291805
+          },
+          {
+            "lat": 18.7477334,
+            "lon": 73.529766
+          },
+          {
+            "lat": 18.7469968,
+            "lon": 73.5303418
+          },
+          {
+            "lat": 18.7463542,
+            "lon": 73.5307795
+          },
+          {
+            "lat": 18.7458546,
+            "lon": 73.5310627
+          },
+          {
+            "lat": 18.7452072,
+            "lon": 73.531381
+          },
+          {
+            "lat": 18.7445318,
+            "lon": 73.5316602
+          },
+          {
+            "lat": 18.7438346,
+            "lon": 73.5319121
+          },
+          {
+            "lat": 18.7430894,
+            "lon": 73.5321116
+          },
+          {
+            "lat": 18.7424147,
+            "lon": 73.5322419
+          },
+          {
+            "lat": 18.7416473,
+            "lon": 73.5323276
+          },
+          {
+            "lat": 18.7391143,
+            "lon": 73.5324953
+          },
+          {
+            "lat": 18.7383646,
+            "lon": 73.5325547
+          },
+          {
+            "lat": 18.7376412,
+            "lon": 73.5326577
+          },
+          {
+            "lat": 18.7371729,
+            "lon": 73.5327506
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 130710868,
+        "bounds": {
+          "minlat": 18.7332499,
+          "minlon": 73.4441273,
+          "maxlat": 18.751425,
+          "maxlon": 73.5325193
+        },
+        "nodes": [
+          533749052,
+          533749053,
+          533749055,
+          533749051,
+          533749058,
+          533749059,
+          2303378114,
+          533748450,
+          2303378116,
+          533748453,
+          2303378118,
+          533748456,
+          2303378121,
+          533748460,
+          533748462,
+          2303378128,
+          533748463,
+          2303378134,
+          2303378136,
+          533748465,
+          2303378138,
+          533748469,
+          2303378141,
+          2303378142,
+          13664954485,
+          533748476,
+          2303378153,
+          533748481,
+          2303378154,
+          533748484,
+          2303378148,
+          2303378146,
+          533748487,
+          2211339848,
+          2303378126,
+          533748499,
+          13664954483,
+          2303378123,
+          2303378122,
+          13983724378,
+          13664954482,
+          12869258155,
+          533748503,
+          533748501,
+          533748505,
+          13664954480,
+          2303378111,
+          533745721,
+          533745301,
+          533745302,
+          2303378076,
+          533745304,
+          2303378072,
+          11808886025,
+          533745305,
+          13664954478,
+          13685059401,
+          12517078205
+        ],
+        "geometry": [
+          {
+            "lat": 18.7371182,
+            "lon": 73.5325193
+          },
+          {
+            "lat": 18.7376165,
+            "lon": 73.5324354
+          },
+          {
+            "lat": 18.7383473,
+            "lon": 73.53235
+          },
+          {
+            "lat": 18.7391037,
+            "lon": 73.5323059
+          },
+          {
+            "lat": 18.7416322,
+            "lon": 73.5321385
+          },
+          {
+            "lat": 18.742389,
+            "lon": 73.532054
+          },
+          {
+            "lat": 18.7430512,
+            "lon": 73.5319261
+          },
+          {
+            "lat": 18.7437834,
+            "lon": 73.5317301
+          },
+          {
+            "lat": 18.7444699,
+            "lon": 73.5314821
+          },
+          {
+            "lat": 18.7451365,
+            "lon": 73.5312065
+          },
+          {
+            "lat": 18.7457741,
+            "lon": 73.530893
+          },
+          {
+            "lat": 18.7462628,
+            "lon": 73.5306159
+          },
+          {
+            "lat": 18.7468946,
+            "lon": 73.5301857
+          },
+          {
+            "lat": 18.7476197,
+            "lon": 73.5296189
+          },
+          {
+            "lat": 18.7482246,
+            "lon": 73.5290454
+          },
+          {
+            "lat": 18.7487299,
+            "lon": 73.5284654
+          },
+          {
+            "lat": 18.7493268,
+            "lon": 73.5277068
+          },
+          {
+            "lat": 18.7496745,
+            "lon": 73.5271786
+          },
+          {
+            "lat": 18.7499441,
+            "lon": 73.5267265
+          },
+          {
+            "lat": 18.7502579,
+            "lon": 73.5261197
+          },
+          {
+            "lat": 18.7506139,
+            "lon": 73.5253292
+          },
+          {
+            "lat": 18.7508619,
+            "lon": 73.5246417
+          },
+          {
+            "lat": 18.751013,
+            "lon": 73.5241474
+          },
+          {
+            "lat": 18.7511808,
+            "lon": 73.5234734
+          },
+          {
+            "lat": 18.7512787,
+            "lon": 73.5229272
+          },
+          {
+            "lat": 18.7512973,
+            "lon": 73.5228235
+          },
+          {
+            "lat": 18.751394,
+            "lon": 73.521953
+          },
+          {
+            "lat": 18.7514002,
+            "lon": 73.5217413
+          },
+          {
+            "lat": 18.751425,
+            "lon": 73.5208989
+          },
+          {
+            "lat": 18.7513813,
+            "lon": 73.520106
+          },
+          {
+            "lat": 18.7512974,
+            "lon": 73.5193838
+          },
+          {
+            "lat": 18.7511935,
+            "lon": 73.5188043
+          },
+          {
+            "lat": 18.7510297,
+            "lon": 73.5180729
+          },
+          {
+            "lat": 18.7498188,
+            "lon": 73.5136504
+          },
+          {
+            "lat": 18.7478706,
+            "lon": 73.5065348
+          },
+          {
+            "lat": 18.7476643,
+            "lon": 73.5056965
+          },
+          {
+            "lat": 18.7476238,
+            "lon": 73.5054869
+          },
+          {
+            "lat": 18.7475188,
+            "lon": 73.504974
+          },
+          {
+            "lat": 18.7473862,
+            "lon": 73.504231
+          },
+          {
+            "lat": 18.7471003,
+            "lon": 73.5026328
+          },
+          {
+            "lat": 18.7468144,
+            "lon": 73.5010346
+          },
+          {
+            "lat": 18.7431753,
+            "lon": 73.4806914
+          },
+          {
+            "lat": 18.7412975,
+            "lon": 73.4701945
+          },
+          {
+            "lat": 18.7411666,
+            "lon": 73.4695268
+          },
+          {
+            "lat": 18.741001,
+            "lon": 73.4688068
+          },
+          {
+            "lat": 18.7409154,
+            "lon": 73.4684982
+          },
+          {
+            "lat": 18.7408123,
+            "lon": 73.4681269
+          },
+          {
+            "lat": 18.7405415,
+            "lon": 73.4672821
+          },
+          {
+            "lat": 18.7339798,
+            "lon": 73.4480023
+          },
+          {
+            "lat": 18.7336684,
+            "lon": 73.4470701
+          },
+          {
+            "lat": 18.7335049,
+            "lon": 73.446517
+          },
+          {
+            "lat": 18.7333819,
+            "lon": 73.4459327
+          },
+          {
+            "lat": 18.7332909,
+            "lon": 73.4452537
+          },
+          {
+            "lat": 18.7332753,
+            "lon": 73.4450168
+          },
+          {
+            "lat": 18.7332499,
+            "lon": 73.4446296
+          },
+          {
+            "lat": 18.7332565,
+            "lon": 73.4444364
+          },
+          {
+            "lat": 18.7332606,
+            "lon": 73.444317
+          },
+          {
+            "lat": 18.733267,
+            "lon": 73.4441273
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 312446341,
+        "bounds": {
+          "minlat": 18.7448101,
+          "minlon": 73.4302905,
+          "maxlat": 18.750406,
+          "maxlon": 73.4311198
+        },
+        "nodes": [
+          245650946,
+          533743563,
+          2303378133,
+          245650922,
+          2303378129,
+          533743569,
+          245650891,
+          533743574
+        ],
+        "geometry": [
+          {
+            "lat": 18.750406,
+            "lon": 73.4309139
+          },
+          {
+            "lat": 18.749974,
+            "lon": 73.4310259
+          },
+          {
+            "lat": 18.7495801,
+            "lon": 73.4311001
+          },
+          {
+            "lat": 18.7491932,
+            "lon": 73.4311198
+          },
+          {
+            "lat": 18.7488518,
+            "lon": 73.431096
+          },
+          {
+            "lat": 18.7485073,
+            "lon": 73.4310486
+          },
+          {
+            "lat": 18.747791,
+            "lon": 73.430901
+          },
+          {
+            "lat": 18.7448101,
+            "lon": 73.4302905
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 406839730,
+        "bounds": {
+          "minlat": 18.750406,
+          "minlon": 73.4307559,
+          "maxlat": 18.75078,
+          "maxlon": 73.4309139
+        },
+        "nodes": [
+          4088963338,
+          245650946
+        ],
+        "geometry": [
+          {
+            "lat": 18.75078,
+            "lon": 73.4307559
+          },
+          {
+            "lat": 18.750406,
+            "lon": 73.4309139
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 406839737,
+        "bounds": {
+          "minlat": 18.7503565,
+          "minlon": 73.4305948,
+          "maxlat": 18.750726,
+          "maxlon": 73.4307509
+        },
+        "nodes": [
+          533743545,
+          4088963337
+        ],
+        "geometry": [
+          {
+            "lat": 18.7503565,
+            "lon": 73.4307509
+          },
+          {
+            "lat": 18.750726,
+            "lon": 73.4305948
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 406839739,
+        "bounds": {
+          "minlat": 18.750726,
+          "minlon": 73.4290111,
+          "maxlat": 18.7553428,
+          "maxlon": 73.4305948
+        },
+        "nodes": [
+          4088963337,
+          533743546,
+          2303378157,
+          2303378159,
+          533743548,
+          2303378160
+        ],
+        "geometry": [
+          {
+            "lat": 18.750726,
+            "lon": 73.4305948
+          },
+          {
+            "lat": 18.7538185,
+            "lon": 73.4292884
+          },
+          {
+            "lat": 18.7541556,
+            "lon": 73.4291642
+          },
+          {
+            "lat": 18.7545072,
+            "lon": 73.4290741
+          },
+          {
+            "lat": 18.7549139,
+            "lon": 73.4290208
+          },
+          {
+            "lat": 18.7553428,
+            "lon": 73.4290111
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 406839740,
+        "bounds": {
+          "minlat": 18.75078,
+          "minlon": 73.4291819,
+          "maxlat": 18.7553445,
+          "maxlon": 73.4307559
+        },
+        "nodes": [
+          245651012,
+          245650988,
+          245650965,
+          2303378158,
+          533743560,
+          4088963338
+        ],
+        "geometry": [
+          {
+            "lat": 18.7553445,
+            "lon": 73.4291819
+          },
+          {
+            "lat": 18.7549256,
+            "lon": 73.4291914
+          },
+          {
+            "lat": 18.7545364,
+            "lon": 73.4292424
+          },
+          {
+            "lat": 18.7542014,
+            "lon": 73.4293282
+          },
+          {
+            "lat": 18.7538752,
+            "lon": 73.4294484
+          },
+          {
+            "lat": 18.75078,
+            "lon": 73.4307559
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213085,
+        "bounds": {
+          "minlat": 18.733267,
+          "minlon": 73.4360005,
+          "maxlat": 18.7349333,
+          "maxlon": 73.4441273
+        },
+        "nodes": [
+          12517078205,
+          533745306,
+          2303378073,
+          2303378074,
+          533745308,
+          2303378080,
+          7905602929,
+          7905602928,
+          7905602927,
+          7905602926,
+          7905602925,
+          7905602892
+        ],
+        "geometry": [
+          {
+            "lat": 18.733267,
+            "lon": 73.4441273
+          },
+          {
+            "lat": 18.7332722,
+            "lon": 73.4439756
+          },
+          {
+            "lat": 18.7333321,
+            "lon": 73.4434722
+          },
+          {
+            "lat": 18.7334437,
+            "lon": 73.4429162
+          },
+          {
+            "lat": 18.733598,
+            "lon": 73.4423077
+          },
+          {
+            "lat": 18.7338127,
+            "lon": 73.4416882
+          },
+          {
+            "lat": 18.7344658,
+            "lon": 73.4397855
+          },
+          {
+            "lat": 18.7346564,
+            "lon": 73.4390846
+          },
+          {
+            "lat": 18.7347487,
+            "lon": 73.4386949
+          },
+          {
+            "lat": 18.7348871,
+            "lon": 73.4378612
+          },
+          {
+            "lat": 18.7349333,
+            "lon": 73.4370818
+          },
+          {
+            "lat": 18.7349232,
+            "lon": 73.4360005
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213097,
+        "bounds": {
+          "minlat": 18.7342259,
+          "minlon": 73.3575692,
+          "maxlat": 18.7495694,
+          "maxlon": 73.4371514
+        },
+        "nodes": [
+          7905602904,
+          11455654818,
+          7905602906,
+          7905602907,
+          7905602908,
+          7905602909,
+          7905602910,
+          7905602911,
+          7905602912,
+          7905602913,
+          7905602914,
+          7905602915,
+          7905602916,
+          7905602917,
+          7905602918,
+          11032285229,
+          7905602919,
+          7905602920,
+          7905602921,
+          7905602922,
+          11365715258,
+          7905602923,
+          13983743037,
+          7905602924
+        ],
+        "geometry": [
+          {
+            "lat": 18.7495694,
+            "lon": 73.3575692
+          },
+          {
+            "lat": 18.7453232,
+            "lon": 73.362007
+          },
+          {
+            "lat": 18.7450713,
+            "lon": 73.3623141
+          },
+          {
+            "lat": 18.7436768,
+            "lon": 73.3640887
+          },
+          {
+            "lat": 18.7423557,
+            "lon": 73.3658646
+          },
+          {
+            "lat": 18.7417694,
+            "lon": 73.3668387
+          },
+          {
+            "lat": 18.7367376,
+            "lon": 73.3795082
+          },
+          {
+            "lat": 18.7360304,
+            "lon": 73.3813235
+          },
+          {
+            "lat": 18.7355915,
+            "lon": 73.382714
+          },
+          {
+            "lat": 18.7353598,
+            "lon": 73.3836796
+          },
+          {
+            "lat": 18.7352013,
+            "lon": 73.3846452
+          },
+          {
+            "lat": 18.7352379,
+            "lon": 73.4028499
+          },
+          {
+            "lat": 18.7351282,
+            "lon": 73.4044206
+          },
+          {
+            "lat": 18.7342625,
+            "lon": 73.4164969
+          },
+          {
+            "lat": 18.7342259,
+            "lon": 73.4182479
+          },
+          {
+            "lat": 18.7342494,
+            "lon": 73.4193241
+          },
+          {
+            "lat": 18.7342869,
+            "lon": 73.4210417
+          },
+          {
+            "lat": 18.7349127,
+            "lon": 73.4285669
+          },
+          {
+            "lat": 18.7349743,
+            "lon": 73.4298444
+          },
+          {
+            "lat": 18.7349896,
+            "lon": 73.4304182
+          },
+          {
+            "lat": 18.7349983,
+            "lon": 73.4306705
+          },
+          {
+            "lat": 18.7351481,
+            "lon": 73.4336984
+          },
+          {
+            "lat": 18.7352729,
+            "lon": 73.4356238
+          },
+          {
+            "lat": 18.7352229,
+            "lon": 73.4371514
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "4",
+          "layer": "-1",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213099,
+        "bounds": {
+          "minlat": 18.7340702,
+          "minlon": 73.3575095,
+          "maxlat": 18.7487968,
+          "maxlon": 73.4360005
+        },
+        "nodes": [
+          7905602892,
+          7905602891,
+          7905602890,
+          7905602889,
+          7905602888,
+          7905602887,
+          7905602886,
+          7905602885,
+          11032285230,
+          7905572284,
+          7905572283,
+          7905572282,
+          7905572281,
+          7905572280,
+          7905572279,
+          7905602893,
+          7905572278,
+          7905572277,
+          7905572276,
+          7905572275,
+          7905572274,
+          7905572273,
+          7905572272,
+          7905572270
+        ],
+        "geometry": [
+          {
+            "lat": 18.7349232,
+            "lon": 73.4360005
+          },
+          {
+            "lat": 18.7348642,
+            "lon": 73.4336234
+          },
+          {
+            "lat": 18.7348334,
+            "lon": 73.4317721
+          },
+          {
+            "lat": 18.7349052,
+            "lon": 73.430408
+          },
+          {
+            "lat": 18.7348877,
+            "lon": 73.429839
+          },
+          {
+            "lat": 18.7347924,
+            "lon": 73.4285783
+          },
+          {
+            "lat": 18.734314,
+            "lon": 73.4228066
+          },
+          {
+            "lat": 18.7341433,
+            "lon": 73.4210814
+          },
+          {
+            "lat": 18.7340974,
+            "lon": 73.4193509
+          },
+          {
+            "lat": 18.7340702,
+            "lon": 73.4183262
+          },
+          {
+            "lat": 18.7340946,
+            "lon": 73.4164208
+          },
+          {
+            "lat": 18.7348017,
+            "lon": 73.4073828
+          },
+          {
+            "lat": 18.7349724,
+            "lon": 73.4043959
+          },
+          {
+            "lat": 18.7350699,
+            "lon": 73.4028767
+          },
+          {
+            "lat": 18.7350212,
+            "lon": 73.384672
+          },
+          {
+            "lat": 18.7352077,
+            "lon": 73.3836381
+          },
+          {
+            "lat": 18.7354357,
+            "lon": 73.3825863
+          },
+          {
+            "lat": 18.7359234,
+            "lon": 73.3811186
+          },
+          {
+            "lat": 18.7365837,
+            "lon": 73.3794318
+          },
+          {
+            "lat": 18.7416483,
+            "lon": 73.3667435
+          },
+          {
+            "lat": 18.7422839,
+            "lon": 73.3657475
+          },
+          {
+            "lat": 18.7435757,
+            "lon": 73.3639287
+          },
+          {
+            "lat": 18.744929,
+            "lon": 73.3622614
+          },
+          {
+            "lat": 18.7487968,
+            "lon": 73.3575095
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "4",
+          "layer": "-1",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213100,
+        "bounds": {
+          "minlat": 18.7334853,
+          "minlon": 73.4371514,
+          "maxlat": 18.7352229,
+          "maxlon": 73.4437944
+        },
+        "nodes": [
+          7905602924,
+          7905602931,
+          7905602932,
+          7905602933,
+          7905602934,
+          13677324781,
+          13677324783,
+          245650782
+        ],
+        "geometry": [
+          {
+            "lat": 18.7352229,
+            "lon": 73.4371514
+          },
+          {
+            "lat": 18.7351869,
+            "lon": 73.4375473
+          },
+          {
+            "lat": 18.7350843,
+            "lon": 73.4382916
+          },
+          {
+            "lat": 18.7349023,
+            "lon": 73.4390763
+          },
+          {
+            "lat": 18.7346605,
+            "lon": 73.4398113
+          },
+          {
+            "lat": 18.7336844,
+            "lon": 73.4426535
+          },
+          {
+            "lat": 18.7335639,
+            "lon": 73.4432357
+          },
+          {
+            "lat": 18.7334853,
+            "lon": 73.4437944
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1390532087,
+        "bounds": {
+          "minlat": 18.7350596,
+          "minlon": 73.4289262,
+          "maxlat": 18.7441084,
+          "maxlon": 73.4322004
+        },
+        "nodes": [
+          13800489543,
+          2303378089,
+          533744512,
+          2303378097,
+          533744515,
+          2303378100,
+          2303378102,
+          533744518,
+          533744520,
+          2303378104,
+          533744526,
+          2303378107,
+          533744531,
+          533744536,
+          533744539,
+          533743536,
+          12869258149,
+          11021473108,
+          533743537
+        ],
+        "geometry": [
+          {
+            "lat": 18.7350596,
+            "lon": 73.4322004
+          },
+          {
+            "lat": 18.7350941,
+            "lon": 73.4319862
+          },
+          {
+            "lat": 18.7352236,
+            "lon": 73.4315025
+          },
+          {
+            "lat": 18.73535,
+            "lon": 73.431172
+          },
+          {
+            "lat": 18.7355521,
+            "lon": 73.4307423
+          },
+          {
+            "lat": 18.7357232,
+            "lon": 73.4304848
+          },
+          {
+            "lat": 18.7359401,
+            "lon": 73.430208
+          },
+          {
+            "lat": 18.736271,
+            "lon": 73.4298565
+          },
+          {
+            "lat": 18.7366559,
+            "lon": 73.4295587
+          },
+          {
+            "lat": 18.7370582,
+            "lon": 73.4293252
+          },
+          {
+            "lat": 18.7374908,
+            "lon": 73.4291369
+          },
+          {
+            "lat": 18.7378748,
+            "lon": 73.4290271
+          },
+          {
+            "lat": 18.7382821,
+            "lon": 73.4289526
+          },
+          {
+            "lat": 18.7387465,
+            "lon": 73.4289262
+          },
+          {
+            "lat": 18.7392111,
+            "lon": 73.4289727
+          },
+          {
+            "lat": 18.7396677,
+            "lon": 73.4290634
+          },
+          {
+            "lat": 18.7414354,
+            "lon": 73.4294254
+          },
+          {
+            "lat": 18.7438533,
+            "lon": 73.4299206
+          },
+          {
+            "lat": 18.7441084,
+            "lon": 73.4299728
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1509690008,
+        "bounds": {
+          "minlat": 18.7352409,
+          "minlon": 73.4291156,
+          "maxlat": 18.7440864,
+          "maxlon": 73.4322061
+        },
+        "nodes": [
+          533743575,
+          12869258148,
+          245650854,
+          2303378110,
+          245650832,
+          245650816,
+          2303378108,
+          245650803,
+          2303378105,
+          533744586,
+          533744588,
+          2303378103,
+          2303378101,
+          533744590,
+          2303378099,
+          533744592,
+          4381980688,
+          2303378094,
+          13800489540,
+          13800489542
+        ],
+        "geometry": [
+          {
+            "lat": 18.7440864,
+            "lon": 73.4301423
+          },
+          {
+            "lat": 18.7414487,
+            "lon": 73.4296021
+          },
+          {
+            "lat": 18.7396374,
+            "lon": 73.4292311
+          },
+          {
+            "lat": 18.7391812,
+            "lon": 73.4291405
+          },
+          {
+            "lat": 18.7387562,
+            "lon": 73.4291156
+          },
+          {
+            "lat": 18.7383024,
+            "lon": 73.4291414
+          },
+          {
+            "lat": 18.7379137,
+            "lon": 73.4292125
+          },
+          {
+            "lat": 18.7375487,
+            "lon": 73.4293169
+          },
+          {
+            "lat": 18.7371359,
+            "lon": 73.4294966
+          },
+          {
+            "lat": 18.7367527,
+            "lon": 73.429719
+          },
+          {
+            "lat": 18.7363885,
+            "lon": 73.4300008
+          },
+          {
+            "lat": 18.7360733,
+            "lon": 73.4303356
+          },
+          {
+            "lat": 18.7358662,
+            "lon": 73.4305999
+          },
+          {
+            "lat": 18.735707,
+            "lon": 73.4308395
+          },
+          {
+            "lat": 18.735514,
+            "lon": 73.4312498
+          },
+          {
+            "lat": 18.7353939,
+            "lon": 73.431564
+          },
+          {
+            "lat": 18.7352816,
+            "lon": 73.4319832
+          },
+          {
+            "lat": 18.7352696,
+            "lon": 73.4320281
+          },
+          {
+            "lat": 18.7352462,
+            "lon": 73.4321737
+          },
+          {
+            "lat": 18.7352409,
+            "lon": 73.4322061
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1509690009,
+        "bounds": {
+          "minlat": 18.7352296,
+          "minlon": 73.4322061,
+          "maxlat": 18.7352409,
+          "maxlon": 73.4322765
+        },
+        "nodes": [
+          13800489542,
+          13800489541
+        ],
+        "geometry": [
+          {
+            "lat": 18.7352409,
+            "lon": 73.4322061
+          },
+          {
+            "lat": 18.7352296,
+            "lon": 73.4322765
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "yes",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1509690010,
+        "bounds": {
+          "minlat": 18.7350055,
+          "minlon": 73.4322708,
+          "maxlat": 18.7350951,
+          "maxlon": 73.4347639
+        },
+        "nodes": [
+          12517078198,
+          2303378086,
+          5906307045,
+          2303378085,
+          4381980676,
+          533744509,
+          13800489544
+        ],
+        "geometry": [
+          {
+            "lat": 18.7350951,
+            "lon": 73.4347639
+          },
+          {
+            "lat": 18.7350296,
+            "lon": 73.4335032
+          },
+          {
+            "lat": 18.7350157,
+            "lon": 73.4331509
+          },
+          {
+            "lat": 18.7350055,
+            "lon": 73.4328942
+          },
+          {
+            "lat": 18.7350216,
+            "lon": 73.4325747
+          },
+          {
+            "lat": 18.7350317,
+            "lon": 73.4323734
+          },
+          {
+            "lat": 18.7350482,
+            "lon": 73.4322708
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1509690011,
+        "bounds": {
+          "minlat": 18.7350482,
+          "minlon": 73.4322004,
+          "maxlat": 18.7350596,
+          "maxlon": 73.4322708
+        },
+        "nodes": [
+          13800489544,
+          13800489543
+        ],
+        "geometry": [
+          {
+            "lat": 18.7350482,
+            "lon": 73.4322708
+          },
+          {
+            "lat": 18.7350596,
+            "lon": 73.4322004
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "layer": "1",
+          "lit": "no",
+          "maxspeed": "100",
+          "maxspeed:hgv": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway",
+          "name:en": "Mumbai - Pune Expressway",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "name:ur": "ممبئی - پونے ایکسپریس وے",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes"
+        }
+      }
+    ]
+  }
+}

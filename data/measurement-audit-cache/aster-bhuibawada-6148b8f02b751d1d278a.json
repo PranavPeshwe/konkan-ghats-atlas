@@ -1,0 +1,241 @@
+{
+  "requestUrl": "https://api.opentopodata.org/v1/aster30m?locations=16.5479%2C73.831261%7C16.549844%2C73.831008%7C16.554184%2C73.830524%7C16.557878%2C73.829438%7C16.56118%2C73.831699%7C16.564599%2C73.831331%7C16.566865%2C73.83046%7C16.563106%2C73.830282%7C16.560388%2C73.828165%7C16.557687%2C73.825076%7C16.558797%2C73.82481%7C16.561797%2C73.82575%7C16.564066%2C73.82675%7C16.565732%2C73.824386%7C16.566525%2C73.821245%7C16.566673%2C73.818156%7C16.566413%2C73.815576%7C16.564364%2C73.812765%7C16.56424%2C73.8087%7C16.565121%2C73.805209%7C16.568552%2C73.803388%7C16.56878%2C73.80319%7C16.56864%2C73.798993%7C16.566716%2C73.794792%7C16.564213%2C73.790791%7C16.564165%2C73.786471%7C16.566918%2C73.786633%7C16.570699%2C73.785135%7C16.574365%2C73.78296&interpolation=bilinear",
+  "retrievedAt": "2026-11-11T15:50:55.791Z",
+  "response": {
+    "results": [
+      {
+        "dataset": "aster30m",
+        "elevation": 617,
+        "location": {
+          "lat": 16.5479,
+          "lng": 73.831261
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 607,
+        "location": {
+          "lat": 16.549844,
+          "lng": 73.831008
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 544,
+        "location": {
+          "lat": 16.554184,
+          "lng": 73.830524
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 514,
+        "location": {
+          "lat": 16.557878,
+          "lng": 73.829438
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 477,
+        "location": {
+          "lat": 16.56118,
+          "lng": 73.831699
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 471,
+        "location": {
+          "lat": 16.564599,
+          "lng": 73.831331
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 415,
+        "location": {
+          "lat": 16.566865,
+          "lng": 73.83046
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 407,
+        "location": {
+          "lat": 16.563106,
+          "lng": 73.830282
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 371,
+        "location": {
+          "lat": 16.560388,
+          "lng": 73.828165
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 333,
+        "location": {
+          "lat": 16.557687,
+          "lng": 73.825076
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 313,
+        "location": {
+          "lat": 16.558797,
+          "lng": 73.82481
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 292,
+        "location": {
+          "lat": 16.561797,
+          "lng": 73.82575
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 281,
+        "location": {
+          "lat": 16.564066,
+          "lng": 73.82675
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 254,
+        "location": {
+          "lat": 16.565732,
+          "lng": 73.824386
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 218,
+        "location": {
+          "lat": 16.566525,
+          "lng": 73.821245
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 194,
+        "location": {
+          "lat": 16.566673,
+          "lng": 73.818156
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 159,
+        "location": {
+          "lat": 16.566413,
+          "lng": 73.815576
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 145,
+        "location": {
+          "lat": 16.564364,
+          "lng": 73.812765
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 130,
+        "location": {
+          "lat": 16.56424,
+          "lng": 73.8087
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 132,
+        "location": {
+          "lat": 16.565121,
+          "lng": 73.805209
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 113,
+        "location": {
+          "lat": 16.568552,
+          "lng": 73.803388
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 117,
+        "location": {
+          "lat": 16.56878,
+          "lng": 73.80319
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 116,
+        "location": {
+          "lat": 16.56864,
+          "lng": 73.798993
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 105,
+        "location": {
+          "lat": 16.566716,
+          "lng": 73.794792
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 98,
+        "location": {
+          "lat": 16.564213,
+          "lng": 73.790791
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 89,
+        "location": {
+          "lat": 16.564165,
+          "lng": 73.786471
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 115,
+        "location": {
+          "lat": 16.566918,
+          "lng": 73.786633
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 128,
+        "location": {
+          "lat": 16.570699,
+          "lng": 73.785135
+        }
+      },
+      {
+        "dataset": "aster30m",
+        "elevation": 105,
+        "location": {
+          "lat": 16.574365,
+          "lng": 73.78296
+        }
+      }
+    ],
+    "status": "OK"
+  }
+}

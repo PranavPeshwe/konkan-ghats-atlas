@@ -1,0 +1,38 @@
+{
+  "requestUrl": "osrm-cache-composition:ambenali-korlai",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-kashid-6dce922eed24fb8afd99.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-kashid-6dce922eed24fb8afd99.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-kashid-6dce922eed24fb8afd99.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-kashid-6dce922eed24fb8afd99.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-ambenali-kashid-6dce922eed24fb8afd99.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-kashid-korlai-c4c49e530ab362e8b6ef.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

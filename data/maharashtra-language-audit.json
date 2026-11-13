@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-11-12T18:22:27.808Z",
+  "scope": "Representative viewports centred in Maharashtra at every supported integer zoom 5–16. Viewport edges may include other states. This is not an exhaustive audit of every Maharashtra map tile.",
+  "viewCount": 120,
+  "regions": [
+    "Pune / Mulshi",
+    "Mumbai",
+    "Ratnagiri",
+    "Sindhudurg",
+    "Nashik",
+    "Chhatrapati Sambhajinagar",
+    "Nagpur",
+    "Amravati",
+    "Solapur",
+    "Nanded"
+  ],
+  "zooms": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "referenceRecords": 1693,
+  "languages": {
+    "en": {
+      "sampledOccurrences": 3377,
+      "statuses": {
+        "source": 3377
+      },
+      "sourceIdentities": 1798,
+      "zoomNameDisagreements": []
+    },
+    "mr": {
+      "sampledOccurrences": 3377,
+      "statuses": {
+        "fallback": 2121,
+        "source": 1210,
+        "editorial": 46
+      },
+      "sourceIdentities": 376,
+      "zoomNameDisagreements": []
+    },
+    "hi": {
+      "sampledOccurrences": 3377,
+      "statuses": {
+        "source": 1486,
+        "fallback": 1828,
+        "editorial": 63
+      },
+      "sourceIdentities": 390,
+      "zoomNameDisagreements": []
+    }
+  },
+  "errors": [],
+  "limitation": "Source-tag fidelity and zoom consistency do not establish independent linguistic correctness for every place. Unavailable native-language names are not silently promoted to verified translations."
+}

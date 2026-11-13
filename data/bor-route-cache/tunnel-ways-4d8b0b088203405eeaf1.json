@@ -1,0 +1,787 @@
+{
+  "requestUrl": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3Bway%5B%22highway%22~%22motorway%7Ctrunk%7Cprimary%7Csecondary%22%5D%5B%22tunnel%22%5D(18.68%2C73.26%2C18.86%2C73.48)%3Bout%20geom%3B",
+  "retrievedAt": "2026-11-11T16:33:18.778Z",
+  "response": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-11-11T16:31:36Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "way",
+        "id": 22841983,
+        "bounds": {
+          "minlat": 18.7704441,
+          "minlon": 73.3365497,
+          "maxlat": 18.7710354,
+          "maxlon": 73.3365984
+        },
+        "nodes": [
+          245651425,
+          245651456
+        ],
+        "geometry": [
+          {
+            "lat": 18.7704441,
+            "lon": 73.3365984
+          },
+          {
+            "lat": 18.7710354,
+            "lon": 73.3365497
+          }
+        ],
+        "tags": {
+          "highway": "trunk",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "-1",
+          "maxspeed": "25",
+          "name": "Khopoli Exit",
+          "name:en": "Khopoli Exit",
+          "oneway": "yes",
+          "ref": "NH48",
+          "ref:old": "NH4",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 22842049,
+        "bounds": {
+          "minlat": 18.7690994,
+          "minlon": 73.364483,
+          "maxlat": 18.7709974,
+          "maxlon": 73.3677995
+        },
+        "nodes": [
+          245651385,
+          2305027036,
+          2211376030,
+          245651420,
+          245651439,
+          2211376038,
+          245651448,
+          245651454
+        ],
+        "geometry": [
+          {
+            "lat": 18.7690994,
+            "lon": 73.3677995
+          },
+          {
+            "lat": 18.7695338,
+            "lon": 73.3674726
+          },
+          {
+            "lat": 18.7698926,
+            "lon": 73.3671561
+          },
+          {
+            "lat": 18.7701792,
+            "lon": 73.3667975
+          },
+          {
+            "lat": 18.7704496,
+            "lon": 73.3662981
+          },
+          {
+            "lat": 18.7706174,
+            "lon": 73.3657892
+          },
+          {
+            "lat": 18.7708148,
+            "lon": 73.3650993
+          },
+          {
+            "lat": 18.7709974,
+            "lon": 73.364483
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "-1",
+          "lit": "24/7",
+          "maxspeed": "60",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Khandala Tunnel",
+          "name:en": "Khandala Tunnel",
+          "name:mr": "खंडाळा बोगदा",
+          "oneway": "yes",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 42680772,
+        "bounds": {
+          "minlat": 18.7633788,
+          "minlon": 73.3458412,
+          "maxlat": 18.7656149,
+          "maxlon": 73.3472332
+        },
+        "nodes": [
+          245651194,
+          245651274
+        ],
+        "geometry": [
+          {
+            "lat": 18.7633788,
+            "lon": 73.3472332
+          },
+          {
+            "lat": 18.7656149,
+            "lon": 73.3458412
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "highway": "motorway",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "-1",
+          "lit": "24/7",
+          "maxspeed": "60",
+          "motorcycle": "no",
+          "name": "Adoshi Tunnel",
+          "name:en": "Adoshi Tunnel",
+          "name:mr": "आडोशी बोगदा",
+          "oneway": "yes",
+          "ref": "MPE;NH48",
+          "ref:old": "NH4",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 78344802,
+        "bounds": {
+          "minlat": 18.7398049,
+          "minlon": 73.4288613,
+          "maxlat": 18.7399675,
+          "maxlon": 73.4294964
+        },
+        "nodes": [
+          535077855,
+          535077854
+        ],
+        "geometry": [
+          {
+            "lat": 18.7398049,
+            "lon": 73.4294964
+          },
+          {
+            "lat": 18.7399675,
+            "lon": 73.4288613
+          }
+        ],
+        "tags": {
+          "highway": "secondary",
+          "layer": "-1",
+          "source": "GPS",
+          "surface": "paved",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 149003178,
+        "bounds": {
+          "minlat": 18.7702045,
+          "minlon": 73.3646583,
+          "maxlat": 18.7714244,
+          "maxlon": 73.3674121
+        },
+        "nodes": [
+          245651471,
+          245651469,
+          2211376044,
+          810373849,
+          2211376042,
+          5956547208,
+          245651462,
+          245651449,
+          245651401,
+          245651374
+        ],
+        "geometry": [
+          {
+            "lat": 18.7714244,
+            "lon": 73.3646583
+          },
+          {
+            "lat": 18.7713061,
+            "lon": 73.3650693
+          },
+          {
+            "lat": 18.7713308,
+            "lon": 73.3654701
+          },
+          {
+            "lat": 18.7712866,
+            "lon": 73.3658506
+          },
+          {
+            "lat": 18.771195,
+            "lon": 73.366232
+          },
+          {
+            "lat": 18.7711754,
+            "lon": 73.3662706
+          },
+          {
+            "lat": 18.7710187,
+            "lon": 73.3665796
+          },
+          {
+            "lat": 18.7707909,
+            "lon": 73.3668921
+          },
+          {
+            "lat": 18.7705177,
+            "lon": 73.3671609
+          },
+          {
+            "lat": 18.7702045,
+            "lon": 73.3674121
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "-1",
+          "lit": "24/7",
+          "maxspeed": "60",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Khandala Tunnel",
+          "name:en": "Khandala Tunnel",
+          "name:mr": "खंडाळा बोगदा",
+          "name:railway": "Tunnel No. 24",
+          "oneway": "yes",
+          "ref": "MPE;NH48",
+          "ref:old": "NH4",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213087,
+        "bounds": {
+          "minlat": 18.7544938,
+          "minlon": 73.3408597,
+          "maxlat": 18.7642998,
+          "maxlon": 73.351383
+        },
+        "nodes": [
+          7905572266,
+          11033835613,
+          7905572269
+        ],
+        "geometry": [
+          {
+            "lat": 18.7544938,
+            "lon": 73.351383
+          },
+          {
+            "lat": 18.75662,
+            "lon": 73.3491765
+          },
+          {
+            "lat": 18.7642998,
+            "lon": 73.3408597
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "4",
+          "layer": "-1",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213094,
+        "bounds": {
+          "minlat": 18.7549901,
+          "minlon": 73.3409393,
+          "maxlat": 18.7649992,
+          "maxlon": 73.3517319
+        },
+        "nodes": [
+          7905602901,
+          11033835614,
+          7905602902
+        ],
+        "geometry": [
+          {
+            "lat": 18.7649992,
+            "lon": 73.3409393
+          },
+          {
+            "lat": 18.7568118,
+            "lon": 73.3496082
+          },
+          {
+            "lat": 18.7549901,
+            "lon": 73.3517319
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "4",
+          "layer": "-1",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213097,
+        "bounds": {
+          "minlat": 18.7342259,
+          "minlon": 73.3575692,
+          "maxlat": 18.7495694,
+          "maxlon": 73.4371514
+        },
+        "nodes": [
+          7905602904,
+          11455654818,
+          7905602906,
+          7905602907,
+          7905602908,
+          7905602909,
+          7905602910,
+          7905602911,
+          7905602912,
+          7905602913,
+          7905602914,
+          7905602915,
+          7905602916,
+          7905602917,
+          7905602918,
+          11032285229,
+          7905602919,
+          7905602920,
+          7905602921,
+          7905602922,
+          11365715258,
+          7905602923,
+          13983743037,
+          7905602924
+        ],
+        "geometry": [
+          {
+            "lat": 18.7495694,
+            "lon": 73.3575692
+          },
+          {
+            "lat": 18.7453232,
+            "lon": 73.362007
+          },
+          {
+            "lat": 18.7450713,
+            "lon": 73.3623141
+          },
+          {
+            "lat": 18.7436768,
+            "lon": 73.3640887
+          },
+          {
+            "lat": 18.7423557,
+            "lon": 73.3658646
+          },
+          {
+            "lat": 18.7417694,
+            "lon": 73.3668387
+          },
+          {
+            "lat": 18.7367376,
+            "lon": 73.3795082
+          },
+          {
+            "lat": 18.7360304,
+            "lon": 73.3813235
+          },
+          {
+            "lat": 18.7355915,
+            "lon": 73.382714
+          },
+          {
+            "lat": 18.7353598,
+            "lon": 73.3836796
+          },
+          {
+            "lat": 18.7352013,
+            "lon": 73.3846452
+          },
+          {
+            "lat": 18.7352379,
+            "lon": 73.4028499
+          },
+          {
+            "lat": 18.7351282,
+            "lon": 73.4044206
+          },
+          {
+            "lat": 18.7342625,
+            "lon": 73.4164969
+          },
+          {
+            "lat": 18.7342259,
+            "lon": 73.4182479
+          },
+          {
+            "lat": 18.7342494,
+            "lon": 73.4193241
+          },
+          {
+            "lat": 18.7342869,
+            "lon": 73.4210417
+          },
+          {
+            "lat": 18.7349127,
+            "lon": 73.4285669
+          },
+          {
+            "lat": 18.7349743,
+            "lon": 73.4298444
+          },
+          {
+            "lat": 18.7349896,
+            "lon": 73.4304182
+          },
+          {
+            "lat": 18.7349983,
+            "lon": 73.4306705
+          },
+          {
+            "lat": 18.7351481,
+            "lon": 73.4336984
+          },
+          {
+            "lat": 18.7352729,
+            "lon": 73.4356238
+          },
+          {
+            "lat": 18.7352229,
+            "lon": 73.4371514
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "4",
+          "layer": "-1",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 847213099,
+        "bounds": {
+          "minlat": 18.7340702,
+          "minlon": 73.3575095,
+          "maxlat": 18.7487968,
+          "maxlon": 73.4360005
+        },
+        "nodes": [
+          7905602892,
+          7905602891,
+          7905602890,
+          7905602889,
+          7905602888,
+          7905602887,
+          7905602886,
+          7905602885,
+          11032285230,
+          7905572284,
+          7905572283,
+          7905572282,
+          7905572281,
+          7905572280,
+          7905572279,
+          7905602893,
+          7905572278,
+          7905572277,
+          7905572276,
+          7905572275,
+          7905572274,
+          7905572273,
+          7905572272,
+          7905572270
+        ],
+        "geometry": [
+          {
+            "lat": 18.7349232,
+            "lon": 73.4360005
+          },
+          {
+            "lat": 18.7348642,
+            "lon": 73.4336234
+          },
+          {
+            "lat": 18.7348334,
+            "lon": 73.4317721
+          },
+          {
+            "lat": 18.7349052,
+            "lon": 73.430408
+          },
+          {
+            "lat": 18.7348877,
+            "lon": 73.429839
+          },
+          {
+            "lat": 18.7347924,
+            "lon": 73.4285783
+          },
+          {
+            "lat": 18.734314,
+            "lon": 73.4228066
+          },
+          {
+            "lat": 18.7341433,
+            "lon": 73.4210814
+          },
+          {
+            "lat": 18.7340974,
+            "lon": 73.4193509
+          },
+          {
+            "lat": 18.7340702,
+            "lon": 73.4183262
+          },
+          {
+            "lat": 18.7340946,
+            "lon": 73.4164208
+          },
+          {
+            "lat": 18.7348017,
+            "lon": 73.4073828
+          },
+          {
+            "lat": 18.7349724,
+            "lon": 73.4043959
+          },
+          {
+            "lat": 18.7350699,
+            "lon": 73.4028767
+          },
+          {
+            "lat": 18.7350212,
+            "lon": 73.384672
+          },
+          {
+            "lat": 18.7352077,
+            "lon": 73.3836381
+          },
+          {
+            "lat": 18.7354357,
+            "lon": 73.3825863
+          },
+          {
+            "lat": 18.7359234,
+            "lon": 73.3811186
+          },
+          {
+            "lat": 18.7365837,
+            "lon": 73.3794318
+          },
+          {
+            "lat": 18.7416483,
+            "lon": 73.3667435
+          },
+          {
+            "lat": 18.7422839,
+            "lon": 73.3657475
+          },
+          {
+            "lat": 18.7435757,
+            "lon": 73.3639287
+          },
+          {
+            "lat": 18.744929,
+            "lon": 73.3622614
+          },
+          {
+            "lat": 18.7487968,
+            "lon": 73.3575095
+          }
+        ],
+        "tags": {
+          "alt_name": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:en": "Mumbai - Pune Expressway Connecting Link",
+          "alt_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग कनेक्टिंग लिंक",
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lane_markings": "yes",
+          "lanes": "4",
+          "layer": "-1",
+          "loc_name": "Mumbai - Pune Expressway",
+          "loc_name:en": "Mumbai - Pune Expressway",
+          "loc_name:mr": "मुंबई-पुणे द्रुतगतीमार्ग",
+          "loc_name:ur": "ممبئی - پونے ایکسپریس وے",
+          "maxspeed": "80",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "name": "Mumbai - Pune Expressway Missing Link",
+          "name:en": "Mumbai - Pune Expressway Missing Link",
+          "name:mr": "मुंबई-पुणे द्रुतगतीमार्ग मिसिंग लिंक",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "opening_date": "2026-05-01",
+          "ref": "MPE",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1285558940,
+        "bounds": {
+          "minlat": 18.7705088,
+          "minlon": 73.3317769,
+          "maxlat": 18.7718434,
+          "maxlon": 73.3351929
+        },
+        "nodes": [
+          11925445647,
+          11925445648
+        ],
+        "geometry": [
+          {
+            "lat": 18.7705088,
+            "lon": 73.3351929
+          },
+          {
+            "lat": 18.7718434,
+            "lon": 73.3317769
+          }
+        ],
+        "tags": {
+          "bicycle": "no",
+          "foot": "no",
+          "highway": "motorway_link",
+          "horse": "no",
+          "int_ref": "AH47",
+          "lanes": "3",
+          "layer": "-1",
+          "lit": "yes",
+          "maxspeed": "60",
+          "motor_vehicle": "yes",
+          "motorcycle": "no",
+          "official_name": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:en": "Yashwantrao Chavan Mumbai - Pune Expressway",
+          "official_name:etymology:wikidata": "Q1764541",
+          "oneway": "yes",
+          "ref": "MPE;NH48",
+          "ref:old": "NH4",
+          "surface": "concrete",
+          "toll": "yes",
+          "tunnel": "yes"
+        }
+      }
+    ]
+  }
+}

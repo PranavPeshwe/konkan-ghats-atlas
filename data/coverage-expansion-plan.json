@@ -1,0 +1,867 @@
+{
+  "date": "2026-11-11",
+  "ghatCount": 20,
+  "beachCount": 38,
+  "numericCells": 760,
+  "selectedUnionCount": 296,
+  "missingGeometryCount": 213,
+  "directOriginalBeachRequests": 85,
+  "sharedDirectedConnectorRequests": 21,
+  "initialGeometryRequestEstimate": 106,
+  "geometryBudget": 150,
+  "tableCacheFile": "data/cache/nearest-ten-five-beach-table-1ceb17887be70ee5c50a.json",
+  "missing": [
+    {
+      "ghatId": "amboli-nashik",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "amboli-nashik",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "amboli-nashik",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "amboli-nashik",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "amboli-nashik",
+      "beachId": "diveagar"
+    },
+    {
+      "ghatId": "amboli-nashik",
+      "beachId": "shrivardhan"
+    },
+    {
+      "ghatId": "kasara",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "kasara",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "kasara",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "kasara",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "kasara",
+      "beachId": "diveagar"
+    },
+    {
+      "ghatId": "kasara",
+      "beachId": "shrivardhan"
+    },
+    {
+      "ghatId": "malshej",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "malshej",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "malshej",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "malshej",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "malshej",
+      "beachId": "diveagar"
+    },
+    {
+      "ghatId": "malshej",
+      "beachId": "shrivardhan"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "diveagar"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "shrivardhan"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "kihim"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "kelshi"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "anjarle"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "murud"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "kashid"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "kelshi"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "shrivardhan"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "velneshwar"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "guhagar"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "kelshi"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "harihareshwar"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "ganpatipule"
+    },
+    {
+      "ghatId": "kumbharli",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "kumbharli",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "kumbharli",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "kumbharli",
+      "beachId": "kelshi"
+    },
+    {
+      "ghatId": "kumbharli",
+      "beachId": "aare-ware"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "devgad"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "kunkeshwar"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "karde"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "devgad"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "kunkeshwar"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "velneshwar"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "vengurla"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "shiroda"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "kunkeshwar"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "devgad"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "ganpatipule"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "shiroda"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "kunkeshwar"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "devgad"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "kunkeshwar"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "devgad"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "amboli",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "amboli",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "amboli",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "amboli",
+      "beachId": "devbag"
+    },
+    {
+      "ghatId": "amboli",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "amboli",
+      "beachId": "tarkarli"
+    },
+    {
+      "ghatId": "pargad",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "pargad",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "pargad",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "pargad",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "pargad",
+      "beachId": "devbag"
+    },
+    {
+      "ghatId": "pargad",
+      "beachId": "tarkarli"
+    },
+    {
+      "ghatId": "tillari",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "tillari",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "tillari",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "tillari",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "tillari",
+      "beachId": "colva"
+    },
+    {
+      "ghatId": "tillari",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "chorla",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "chorla",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "chorla",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "chorla",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "chorla",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "chorla",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "anmod",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "anmod",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "anmod",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "anmod",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "anmod",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "anmod",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "anashi",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "anashi",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "anashi",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "anashi",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "anashi",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "anashi",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "alibag"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "alibag"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "kihim"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "kihim"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "kashid"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "murud"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "diveagar"
+    },
+    {
+      "ghatId": "raghuvir",
+      "beachId": "shrivardhan"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "harihareshwar"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "anjarle"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "anjarle"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "karde"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "karde"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "guhagar"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "guhagar"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "guhagar"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "velneshwar"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "velneshwar"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "velneshwar"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "ganpatipule"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "ganpatipule"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "ganpatipule"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "aare-ware"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "aare-ware"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "aare-ware"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "tarkarli"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "devbag"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "vengurla"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "shiroda"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "arambol"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "calangute"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "calangute"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "calangute"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "calangute"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "calangute"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "colva"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "colva"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "colva"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "colva"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "colva"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "agonda"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "agonda"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "agonda"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "agonda"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "agonda"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "palolem"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "palolem"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "palolem"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "palolem"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "palolem"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "nagaon"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "akshi"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "revdanda"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "korlai"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "kelshi"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "kelshi"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "harnai"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "bor",
+      "beachId": "ladghar"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "ambenali",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "tamhini",
+      "beachId": "bhatye"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "devgad"
+    },
+    {
+      "ghatId": "varandha",
+      "beachId": "kunkeshwar"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "querim"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "mandrem"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "morjim"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "candolim"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "benaulim"
+    },
+    {
+      "ghatId": "karul",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "anuskura",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "bhuibawada",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "phonda",
+      "beachId": "varca"
+    },
+    {
+      "ghatId": "amba",
+      "beachId": "varca"
+    }
+  ]
+}

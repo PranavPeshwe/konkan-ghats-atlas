@@ -1,0 +1,38 @@
+{
+  "requestUrl": "osrm-cache-composition:bor-expressway-original-ladghar",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/bor-expressway-original-prefix-0c7f7a6f4ea3a58a9f88.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-original-prefix-0c7f7a6f4ea3a58a9f88.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-original-prefix-0c7f7a6f4ea3a58a9f88.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-original-prefix-0c7f7a6f4ea3a58a9f88.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/composed-bor-ladghar.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/composed-bor-ladghar.json",
+      "legIndex": 5,
+      "reversed": false
+    }
+  ],
+  "notes": "Complete forward-only legs; identical common road junction. Separate expressway corridor audit; no inferred tunnel geometry or times."
+}

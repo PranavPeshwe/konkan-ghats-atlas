@@ -1,0 +1,43 @@
+{
+  "requestUrl": "osrm-cache-composition:kumbharli-harnai",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/nearest-four-kumbharli-anjarle-9dde71a04264908d1811.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/nearest-four-kumbharli-anjarle-9dde71a04264908d1811.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/nearest-four-kumbharli-anjarle-9dde71a04264908d1811.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/nearest-four-kumbharli-anjarle-9dde71a04264908d1811.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/nearest-four-kumbharli-anjarle-9dde71a04264908d1811.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/nearest-four-kumbharli-anjarle-9dde71a04264908d1811.json",
+      "legIndex": 5,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-anjarle-harnai-4dd3460ada6aa1f71b82.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

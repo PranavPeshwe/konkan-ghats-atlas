@@ -1,0 +1,173 @@
+{
+  "kasara": {
+    "roadRef": "NH160",
+    "cacheFile": "data/cache/kasara-alibag-2848382591057b60fd85.json",
+    "anchors": [
+      [
+        73.550818,
+        19.690603
+      ],
+      [
+        73.500454,
+        19.701788
+      ],
+      [
+        73.484719,
+        19.647474
+      ]
+    ],
+    "notes": "Entry/interior/exit seeds refined to actual returned geometry vertices on the named main-road reference, excluding nearby side-spur snaps."
+  },
+  "bor": {
+    "roadRef": "NH48",
+    "cacheFile": "data/cache/bor-alibag-0cc5a199f3360250fc19.json",
+    "anchors": [
+      [
+        73.395594,
+        18.757549
+      ],
+      [
+        73.364362,
+        18.772659
+      ],
+      [
+        73.324275,
+        18.800919
+      ]
+    ],
+    "notes": "Entry/interior/exit seeds refined to actual returned geometry vertices on the named main-road reference, excluding nearby side-spur snaps."
+  },
+  "tamhini": {
+    "roadRef": "NH753F",
+    "cacheFile": "data/cache/tamhini-alibag-9b19328b4a4ae45ffa6f.json",
+    "anchors": [
+      [
+        73.438167,
+        18.467862
+      ],
+      [
+        73.405325,
+        18.449352
+      ],
+      [
+        73.361359,
+        18.41256
+      ]
+    ],
+    "notes": "Entry/interior/exit seeds refined to actual returned geometry vertices on the named main-road reference, excluding nearby side-spur snaps."
+  },
+  "varandha": {
+    "roadRef": "NH965DD",
+    "cacheFile": "data/cache/varandha-diveagar-1f783da75eb8020096c9.json",
+    "anchors": [
+      [
+        73.605735,
+        18.133998
+      ],
+      [
+        73.607267,
+        18.128131
+      ],
+      [
+        73.580221,
+        18.127741
+      ]
+    ],
+    "notes": "Entry/interior/exit seeds refined to actual returned geometry vertices on the named main-road reference, excluding nearby side-spur snaps."
+  },
+  "ambenali": {
+    "roadRef": "SH72",
+    "cacheFile": "data/cache/ambenali-anjarle-708a702c68f23f6f5282.json",
+    "anchors": [
+      [
+        73.646142,
+        17.923177
+      ],
+      [
+        73.598184,
+        17.930506
+      ],
+      [
+        73.508212,
+        17.955513
+      ]
+    ],
+    "notes": "Entry/interior/exit seeds refined to actual returned geometry vertices on the named main-road reference, excluding nearby side-spur snaps."
+  },
+  "amba": {
+    "roadRef": "NH166",
+    "cacheFile": "data/cache/amba-aare-ware-fa8920d0008edc5d17aa.json",
+    "anchors": [
+      [
+        73.796754,
+        16.970909
+      ],
+      [
+        73.781519,
+        16.978554
+      ],
+      [
+        73.725221,
+        16.991289
+      ]
+    ],
+    "notes": "Entry/interior/exit seeds refined to actual returned geometry vertices on the named main-road reference, excluding nearby side-spur snaps."
+  },
+  "amboli-nashik": {
+    "roadRef": "NH160A",
+    "cacheFile": "data/cache/audit-trimbak-jawhar-5290e4483a57b158bd34.json",
+    "anchors": [
+      [
+        73.440191,
+        19.969779
+      ],
+      [
+        73.398413,
+        19.944542
+      ],
+      [
+        73.372147,
+        19.936658
+      ]
+    ],
+    "notes": "Candidate seeds refined to actual cached main-road vertices; Pargad exit is an exact cached Mirvel-road vertex. Named road and geographic corridor sources remain separately cited."
+  },
+  "pargad": {
+    "roadRef": "ODR",
+    "cacheFile": "data/cache/audit-pargad-3db4dd341596937642b7.json",
+    "anchors": [
+      [
+        74.177296,
+        15.862819
+      ],
+      [
+        74.099727,
+        15.837127
+      ],
+      [
+        74.040247,
+        15.86532
+      ]
+    ],
+    "notes": "Candidate seeds refined to actual cached main-road vertices; Pargad exit is an exact cached Mirvel-road vertex. Named road and geographic corridor sources remain separately cited."
+  },
+  "anashi": {
+    "roadRef": "SH34",
+    "cacheFile": "data/cache/audit-anashi-7b23a3c9bb93732bbda2.json",
+    "anchors": [
+      [
+        74.359569,
+        15.026242
+      ],
+      [
+        74.368891,
+        14.993486
+      ],
+      [
+        74.350754,
+        14.922151
+      ]
+    ],
+    "notes": "Candidate seeds refined to actual cached main-road vertices; Pargad exit is an exact cached Mirvel-road vertex. Named road and geographic corridor sources remain separately cited."
+  }
+}

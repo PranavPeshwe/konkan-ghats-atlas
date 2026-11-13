@@ -1,0 +1,43 @@
+{
+  "requestUrl": "osrm-cache-composition:bor-expressway-missing-link-akshi",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/bor-expressway-missing-link-prefix-191e2f7707a629461286.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-missing-link-prefix-191e2f7707a629461286.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-missing-link-prefix-191e2f7707a629461286.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-missing-link-prefix-191e2f7707a629461286.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/bor-expressway-missing-link-prefix-191e2f7707a629461286.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/composed-bor-akshi.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/composed-bor-akshi.json",
+      "legIndex": 5,
+      "reversed": false
+    }
+  ],
+  "notes": "Complete forward-only legs; identical common road junction. Separate expressway corridor audit; no inferred tunnel geometry or times."
+}

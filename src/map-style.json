@@ -1,0 +1,24 @@
+{
+  "version": 8,
+  "name": "Konkan field atlas",
+  "sources": {
+    "basemap": {
+      "type": "vector",
+      "url": "https://tiles.openfreemap.org/planet",
+      "attribution": "<a href=\"https://openfreemap.org/\">OpenFreeMap</a> &copy; <a href=\"https://www.openmaptiles.org/\">OpenMapTiles</a> &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>"
+    }
+  },
+  "layers": [
+    { "id": "land", "type": "background", "paint": { "background-color": "#e6fcf5" } },
+    { "id": "woodland", "type": "fill", "source": "basemap", "source-layer": "landcover", "filter": ["==", "class", "wood"], "paint": { "fill-color": "#91cb91", "fill-opacity": 0.7 } },
+    { "id": "grass", "type": "fill", "source": "basemap", "source-layer": "landcover", "filter": ["in", "class", "grass", "scrub"], "paint": { "fill-color": "#d3e99e", "fill-opacity": 0.8 } },
+    { "id": "park", "type": "fill", "source": "basemap", "source-layer": "park", "paint": { "fill-color": "#54bd89", "fill-opacity": 0.4 } },
+    { "id": "water", "type": "fill", "source": "basemap", "source-layer": "water", "paint": { "fill-color": "#70d6de" } },
+    { "id": "waterways", "type": "line", "source": "basemap", "source-layer": "waterway", "paint": { "line-color": "#43b8cd", "line-width": 1 } },
+    { "id": "minor-road", "type": "line", "source": "basemap", "source-layer": "transportation", "minzoom": 9, "filter": ["in", "class", "minor", "tertiary", "secondary"], "paint": { "line-color": "#ffffff", "line-width": ["interpolate", ["linear"], ["zoom"], 9, 0.7, 14, 3] } },
+    { "id": "main-road-case", "type": "line", "source": "basemap", "source-layer": "transportation", "filter": ["in", "class", "motorway", "trunk", "primary"], "paint": { "line-color": "#80bfae", "line-width": ["interpolate", ["linear"], ["zoom"], 6, 1, 12, 4] } },
+    { "id": "main-road", "type": "line", "source": "basemap", "source-layer": "transportation", "filter": ["in", "class", "motorway", "trunk", "primary"], "paint": { "line-color": "#ffffff", "line-width": ["interpolate", ["linear"], ["zoom"], 6, 0.6, 12, 2.5] } },
+    { "id": "boundaries", "type": "line", "source": "basemap", "source-layer": "boundary", "filter": ["==", "admin_level", 4], "paint": { "line-color": "#8f9b80", "line-width": 1, "line-dasharray": [3, 3], "line-opacity": 0.5 } },
+    { "id": "settlement-labels", "type": "symbol", "source": "basemap", "source-layer": "place", "filter": ["in", "class", "city", "town", "village"], "layout": { "text-field": ["coalesce", ["get", "name:latin"], ["get", "name:en"], ["get", "name"]], "text-font": ["sans-serif"], "text-size": ["interpolate", ["linear"], ["zoom"], 6, 10, 12, 13], "text-max-width": 8, "symbol-sort-key": ["coalesce", ["get", "rank"], 10] }, "paint": { "text-color": "#456b61", "text-halo-color": "#e6fcf5", "text-halo-width": 1.5 } }
+  ]
+}

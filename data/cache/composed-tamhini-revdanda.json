@@ -1,0 +1,38 @@
+{
+  "requestUrl": "osrm-cache-composition:tamhini-revdanda",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/tamhini-alibag-81f9b7c5c2fe1f71f3f1.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/tamhini-alibag-81f9b7c5c2fe1f71f3f1.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/tamhini-alibag-81f9b7c5c2fe1f71f3f1.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/tamhini-alibag-81f9b7c5c2fe1f71f3f1.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/tamhini-alibag-81f9b7c5c2fe1f71f3f1.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-alibag-revdanda-907b059fd37c02c81bc1.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

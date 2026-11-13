@@ -1,0 +1,85 @@
+KONKAN GHAT ATLAS — DATA NOTICE
+
+Road network, snapped coordinates and routing-derived database:
+© OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+Open Database License 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+Database contents: https://opendatacommons.org/licenses/dbcl/1-0/
+
+The OSM-derived data in data/atlas.json and data/cache/ are offered under
+ODbL 1.0. Preserve attribution and the license, and comply with the ODbL
+share-alike/source-database requirements when publicly using an adapted
+database. Distribute these machine-readable data files and the generation
+inputs/scripts with the HTML artifact, or provide an accessible durable
+source-data download. Bundling only a rendered map does not replace this.
+
+Routing engine: OSRM, operated by FOSSGIS for the one-time snapshot.
+https://routing.openstreetmap.de/about.html
+Report map errors: https://www.openstreetmap.org/fixthemap
+No runtime routing calls are made. Service permission is separate from the
+ODbL data license; review current service policy before regenerating.
+Use your own controlled OSRM instance for repeated/bulk regeneration.
+
+Original research summaries, curation and editorial annotations in
+data/research.mjs and generated records: CC0 1.0, to the extent the author
+can grant rights. This grant does not change ODbL rights in derived data.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Official reference publications retain their respective copyrights.
+Only links, factual claim associations and original short paraphrases
+are included; no tourism images or substantial source text are copied.
+Source references do not imply endorsement or a license to reproduce
+the referenced websites.
+
+Field-guide additions:
+data/maharashtra-map-names.json and data/maharashtra-name-cache/ retain
+identity-matched OSM native-language name tags, retrieval dates and object
+versions from a finite map-label sample. They are OSM-derived data under
+the ODbL terms above. data/maharashtra-label-samples.json records sampled
+viewports at zooms 5-16, not an exhaustive state gazetteer. Viewport edges
+can include adjacent states; no administrative boundary is inferred.
+Contributor account metadata is not retained. Generated fallback spellings
+are marked approximate and are not represented as official names.
+
+data/field-guide.json includes OSRM-derived stage metrics and road-section
+geometry under the OSM database terms above, plus NASA/USGS SRTMGL1 v003
+terrain samples obtained from the Open Topo Data public service.
+https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl1-003
+https://www.opentopodata.org/datasets/srtm/
+The SRTM samples are US-government terrain data, not a road-deck survey.
+Dataset attribution, source coordinates, interpolation method, retrieval
+timestamps and original response values are retained. The API server
+software itself is not bundled.
+
+Measurement audit:
+data/ghat-measurement-audit.json adds separately retained ASTER GDEM v3
+terrain values (NASA/METI, supplied through Open Topo Data) and Copernicus
+DEM 2021 GLO-90 values (Copernicus programme / ESA, supplied through
+Open-Meteo). Dataset acknowledgement: DOI 10.5270/ESA-c5d3d65.
+https://www.opentopodata.org/datasets/aster/
+https://open-meteo.com/en/docs/elevation-api
+Source values, coordinates, request URLs, timestamps and API responses are
+retained separately. No averaging or substitution creates a surveyed road
+height. Product disagreement is not a statistical uncertainty interval.
+
+data/bor-road-options.json contains OSM/OSRM-derived expressway itineraries
+under the OSM database terms above. data/bor-route-cache/ retains bounded
+OpenStreetMap motorway and tunnel-way evidence from Overpass. Two routed
+prefixes and complete directed coastal legs are retained in data/cache/.
+Official MSRDC/MoEFCC and Maharashtra Highway Police documents are linked
+for project identity and dated regulation, not reproduced in full.
+
+The atlas's legacy lengthKm and entry/exit anchor fields describe selected
+routing intervals, not independently established complete-ghat boundaries.
+Historical, approximate ghat-only and project-road references have separate
+scope labels in data/ghat-length-sources.json. Unestablished current exact
+whole-ghat lengths remain null in the audit. Reference documents are linked,
+not redistributed in full.
+
+data/ghat-stories.json contains original short factual paraphrases and
+explicitly attributed traditions. Gazetteers and government publications
+retain their own rights. No inference of a guard-fort role, name origin,
+or historical certainty is licensed by a mere proximity or local story.
+
+This is a researched snapshot, not live navigation, legal access advice,
+traffic, weather, closure or road-condition information. Road
+availability and restrictions must be checked independently before travel.

@@ -1,0 +1,48 @@
+{
+  "requestUrl": "osrm-cache-composition:anmod-morjim",
+  "retrievedAt": "2026-11-11",
+  "dataVersion": null,
+  "composition": [
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 0,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 1,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 2,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 3,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 4,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 5,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-road-anmod-arambol-c97ea440828199951b2b.json",
+      "legIndex": 6,
+      "reversed": false
+    },
+    {
+      "cacheFile": "data/cache/coverage-coast-arambol-morjim-c731840146601d01ecc6.json",
+      "legIndex": 0,
+      "reversed": false
+    }
+  ],
+  "notes": "Derived cache manifest, not a provider response. Exact complete source legs retain provider URLs, geometry, distances and durations; no reversed edges, interpolated roads or synthetic segment metrics."
+}

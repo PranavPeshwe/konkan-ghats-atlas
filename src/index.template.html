@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="A field guide to ghat roads in the Western Ghats, comparing routes from Pune to Konkan and Goa beaches.">
+  <title>Konkan ghats atlas | Pune to the coast</title>
+  <style>/* ATLAS_STYLES */</style>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to atlas</a>
+  <header class="masthead">
+    <div class="brand"><svg viewBox="0 0 42 46" aria-hidden="true"><path d="M5 38 21 5l16 33M13 38c18-8-8-12 9-21" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 42h36" stroke="currentColor"/></svg><div><span class="eyebrow">A field guide to ghats in the western ghats</span><h1>Konkan ghats atlas<span class="brand-dot">.</span></h1></div></div>
+    <div class="header-meta"><span class="origin-label"><span class="live-dot"></span> PUNE TO THE COAST</span><span class="snapshot-label" id="snapshot-label">Researched route snapshot</span></div>
+    <div class="header-actions"><label class="language-picker" for="language-select"><span>Language</span><select id="language-select" aria-label="Language"><option value="en" lang="en">English</option><option value="mr" lang="mr">मराठी</option><option value="hi" lang="hi">हिन्दी</option></select></label><button class="quiet-button" id="about-button">About this atlas</button><button class="primary-button" id="compare-button">Compare <span id="selection-count">0</span></button></div>
+  </header>
+  <section class="quick-guide" aria-labelledby="usage-heading">
+    <h2 id="usage-heading">How to use</h2>
+    <p><strong>Choose a ghat</strong> for ten nearby beaches, or a <strong>beach</strong> to select its five shortest ghat routes. Use <strong>Trace on map</strong> or <strong>Google Maps</strong> to follow a route; <strong>Compare</strong> adjusts your priorities. <strong>Reset all</strong> restores defaults.</p>
+  </section>
+  <main id="workspace" class="workspace">
+    <aside class="catalog-panel" aria-label="Explore the atlas">
+      <div class="catalog-intro"><span class="eyebrow">FIND YOUR WAY WEST</span><h2 id="explore-heading">Choose a crossing</h2><p>One mountain range.<br>Many ways to the sea.</p></div>
+      <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" aria-label="Search ghats, beaches, towns and routes" placeholder="Ghat, beach, town, route..." autocomplete="off"><kbd>/</kbd></div>
+      <div class="tabs" role="group" aria-label="Browse by"><button data-mode="ghats" class="active" aria-pressed="true">Ghats <span id="ghat-count"></span></button><button data-mode="beaches" aria-pressed="false">Beaches <span id="beach-count"></span></button></div>
+      <div id="search-results" class="search-results" hidden></div>
+      <div class="catalog-summary"><span id="catalog-count"></span><button class="text-button" id="clear-focus">Map overview</button></div>
+      <div id="catalog-list" class="catalog-list"></div>
+    </aside>
+    <section class="map-panel" aria-labelledby="map-heading">
+      <div class="map-heading"><div><span class="eyebrow" id="map-eyebrow">THE BIG PICTURE</span><h2 id="map-heading">Across the Sahyadris</h2></div><div class="map-actions"><button id="selected-only" class="map-button" aria-pressed="false" disabled title="Show selected routes without the rest of the network">Selected only</button><button id="fit-selection" class="map-button" title="Fit selected routes">Fit routes</button><button id="reset-view" class="map-button" title="Return to the full atlas">Overview</button></div></div>
+      <div id="map" aria-label="Interactive map of ghat and beach routes"></div>
+      <div class="map-status" id="map-status" role="status">Loading the online basemap...</div>
+      <div class="map-fallback" id="map-fallback" hidden><span class="eyebrow">MAP UNAVAILABLE</span><h3>Keep exploring the coast.</h3><p id="map-error">The basemap could not start. All researched routes and comparisons are available in the panels.</p><button class="primary-button" id="retry-map">Retry map</button></div>
+      <div class="map-inset"><span class="compass" aria-hidden="true">N<br>&#8593;</span><span>MAHARASHTRA<br><b>&amp; GOA</b></span></div>
+      <div id="map-legend" class="map-legend"></div>
+      <button id="reset-all" class="map-button map-reset-button" aria-label="Reset all settings" title="Clear selections, search, filters and weights; restore the map overview">&#8634; Reset all</button>
+      <div class="map-footnote"><span id="route-total">CURATED DRIVING ROUTES</span><span title="Uncertain native names use the English source spelling.">English fallback</span><span>Snapshot estimates. Not live navigation.</span></div>
+    </section>
+    <aside class="inspector" aria-label="Crossing details and routes">
+      <div id="detail-content" class="detail-content"></div>
+      <section class="filter-section" aria-labelledby="filters-heading">
+        <div class="section-line"><h2 id="filters-heading">Refine your routes</h2><button class="text-button" id="reset-filters">Reset</button></div>
+        <div class="filter-grid">
+          <label>Max distance <span><input id="max-distance" type="number" min="0" step="10" placeholder="Any"> km</span></label>
+          <label>Max driving time <span><input id="max-time" type="number" min="0" step="0.5" placeholder="Any"> hr</span></label>
+          <label>Bend demand (curves only)<select id="difficulty"><option value="">Any bend demand</option><option value="2">Up to 2 / 5</option><option value="3">Up to 3 / 5</option><option value="4">Up to 4 / 5</option><option value="5">All known ratings</option></select></label>
+          <label>Scenery<select id="scenery"><option value="">Any scenery</option><option value="3">3 / 5 or higher</option><option value="4">4 / 5 or higher</option><option value="5">5 / 5 only</option></select></label>
+        </div>
+      </section>
+      <section class="routes-section" aria-labelledby="routes-heading"><div class="section-line"><h2 id="routes-heading">Routes to the sea</h2><span id="visible-route-count" class="small-count"></span></div><p id="route-order-note" class="route-order-note">Driving distance from Pune · shortest first</p><div id="route-list"></div></section>
+    </aside>
+  </main>
+  <section id="comparison" class="comparison" aria-labelledby="comparison-heading" hidden>
+    <div class="comparison-header"><div><span class="eyebrow">YOUR JOURNEY, YOUR PRIORITIES</span><h2 id="comparison-heading">Find your kind of route</h2></div><p>Rank alternatives to the same beach.<br>Different destinations stay in separate groups.</p><button class="quiet-button" id="clear-selection">Clear routes</button><button class="icon-button" id="close-comparison" aria-label="Close comparison">&#215;</button></div>
+    <div class="comparison-body"><section class="weights" aria-labelledby="weights-heading"><h3 id="weights-heading">What matters to you?</h3><div id="weight-controls"></div><p class="muted" id="weight-note">Weights apply locally. Unknown active inputs make a score incomplete.</p><p class="muted">Bend demand measures curves only, not surface, width, gradient or safety.</p></section><div id="comparison-results" class="comparison-results"></div></div>
+  </section>
+  <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-heading" aria-describedby="welcome-description">
+    <div class="dialog-header"><span class="eyebrow">CHOOSE YOUR CROSSING</span><button class="icon-button" id="close-welcome" aria-label="Close getting started message">&#215;</button></div>
+    <h2 id="welcome-heading">Click a ghat or beach to get started.</h2>
+    <p id="welcome-description">Place names are shown on the map. Choose a ghat or beach name in the left-hand list or on the map to reveal its routes.</p>
+    <button class="primary-button" id="welcome-start" autofocus>Explore the atlas</button>
+  </dialog>
+  <dialog id="about-dialog" aria-labelledby="about-heading"><div class="dialog-header"><span class="eyebrow">READ THE LANDSCAPE</span><button class="icon-button" id="close-about" aria-label="Close about panel">&#215;</button></div><h2 id="about-heading">Behind the atlas</h2><div id="about-content"></div></dialog>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+  <noscript>This atlas needs JavaScript enabled. Its route data is bundled in this file; internet is used only for the basemap.</noscript>
+  <script>/* ATLAS_SCRIPT */</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "notes": "Identity evidence is separate from editorial near-access coordinate seeds. Seeds are snapped once to the car graph by the cached comparison table, then frozen; no beach driving, parking, swimming-safety or current-access claim.",
+  "sources": [
+    {"id":"mmb-shoreline-2017","title":"Maharashtra Maritime Board: Shoreline Management Plan 2017","url":"https://mahammb.maharashtra.gov.in/site/upload/pdf/MaharashtraSMP2017.pdf","description":"Separate named coastal beach inventory and district maps identify Nagaon C75, Akshi C76, Revdanda C74, Korlai C73, Ladghar B57, Devgad A29 and Kunkeshwar A26; geographic identity only. Ladghar is separate from Karde B58 and Murud Dapoli B59.","sourceDate":"2017"},
+    {"id":"konkan-harnai","title":"Konkan Divisional Commissioner: Harne and Murud","url":"https://divcomkonkan.gov.in/en/places-centres/harne-and-murud/","description":"Harnai shore in Dapoli taluka, Ratnagiri; not Murud-Janjira in Raigad.","sourceDate":null},
+    {"id":"konkan-bhatye","title":"Konkan Divisional Commissioner: Bhatye Beach","url":"https://divcomkonkan.gov.in/en/places-centres/bhatye-beach/","description":"Identifies Bhatye beach beside Ratnagiri town.","sourceDate":null},
+    {"id":"maharashtra-kelshi","title":"Maharashtra Tourism: Kelashi beach and village","url":"https://maharashtratourism.gov.in/best-tourism-village/","description":"Identifies Kelashi/Kelshi as one beach in Dapoli taluka, Ratnagiri.","sourceDate":null},
+    {"id":"ratnagiri-tourism-20261111","title":"Ratnagiri district: tourism inventory","url":"https://ratnagiri.gov.in/पर्यटन/","description":"District inventory locates Ladghar, Kelshi and Harnai in Dapoli, and Bhatye in Ratnagiri.","sourceDate":null},
+    {"id":"maharashtra-sindhudurg-beaches","title":"Maharashtra Tourism: Sindhudurg","url":"https://maharashtratourism.gov.in/districts/sindhudurg/","description":"Identifies Devgad beach and distinguishes it from Kunkeshwar to its south.","sourceDate":null},
+    {"id":"goa-coast-20261111","title":"Ministry of Tourism Incredible India: Goa coastline","url":"https://www.incredibleindia.gov.in/en/goa/goa/exploring-the-beauty-of-the-pristine-coastline","description":"Identifies Querim/Keri as one beach, Mandrem, Candolim, Benaulim and Varca; identities only, no safety endorsements adopted.","sourceDate":null},
+    {"id":"goa-beaches-20261111","title":"Government of Goa: Beaches","url":"https://www.goa.gov.in/what_to_see/beaches/","description":"Distinguishes Candolim and Morjim in north Goa, and Benaulim and Varca in south Goa.","sourceDate":null}
+  ],
+  "beaches": [
+    {"id":"nagaon","name":"Nagaon","aliases":["Nagaon Beach"],"region":"Raigad","requestedCoordinates":[72.904,18.596],"summary":"Nagaon shore south of Alibag.","sourceIds":["mmb-shoreline-2017"]},
+    {"id":"akshi","name":"Akshi","aliases":["Akshi Beach"],"region":"Raigad","requestedCoordinates":[72.891,18.622],"summary":"Separate Akshi shore near Alibag.","sourceIds":["mmb-shoreline-2017"]},
+    {"id":"revdanda","name":"Revdanda","aliases":["Rewadanda"],"region":"Raigad","requestedCoordinates":[72.924,18.553],"summary":"Revdanda shore on the north side of the Kundalika estuary.","sourceIds":["mmb-shoreline-2017"]},
+    {"id":"korlai","name":"Korlai","aliases":["Korlai Beach"],"region":"Raigad","requestedCoordinates":[72.919,18.516],"summary":"Korlai shore south of the Kundalika estuary.","sourceIds":["mmb-shoreline-2017"]},
+    {"id":"kelshi","name":"Kelshi","aliases":["Kelashi"],"region":"Ratnagiri","requestedCoordinates":[73.058,17.92],"summary":"Kelshi village shore in Dapoli taluka.","sourceIds":["maharashtra-kelshi"]},
+    {"id":"harnai","name":"Harnai","aliases":["Harne","Herne"],"region":"Ratnagiri","requestedCoordinates":[73.101,17.813],"summary":"Harnai fishing-village shore, distinct from Murud in Raigad.","sourceIds":["konkan-harnai"]},
+    {"id":"ladghar","name":"Ladghar","aliases":["Ladghar Beach"],"region":"Ratnagiri","requestedCoordinates":[73.128,17.734],"summary":"Ladghar shore in Dapoli taluka.","sourceIds":["ratnagiri-tourism-20261111","mmb-shoreline-2017"]},
+    {"id":"bhatye","name":"Bhatye","aliases":["Bhatye Beach","Bhaty"],"region":"Ratnagiri","requestedCoordinates":[73.293,16.969],"summary":"Bhatye shore beside Ratnagiri town.","sourceIds":["konkan-bhatye"]},
+    {"id":"devgad","name":"Devgad","aliases":["Devgad Beach"],"region":"Sindhudurg","requestedCoordinates":[73.376,16.373],"summary":"Devgad town beach, distinct from Kunkeshwar.","sourceIds":["maharashtra-sindhudurg-beaches","mmb-shoreline-2017"]},
+    {"id":"kunkeshwar","name":"Kunkeshwar","aliases":["Kunkeshwar Beach"],"region":"Sindhudurg","requestedCoordinates":[73.394,16.331],"summary":"Kunkeshwar temple-side shore south of Devgad.","sourceIds":["mmb-shoreline-2017"]},
+    {"id":"querim","name":"Querim · Keri","aliases":["Querim","Keri","Keri Beach"],"region":"North Goa","requestedCoordinates":[73.695,15.714],"summary":"Northern Goa shore near the Terekhol river mouth; Keri is an alias, not a second destination.","sourceIds":["goa-coast-20261111"]},
+    {"id":"mandrem","name":"Mandrem","aliases":["Mandrem Beach"],"region":"North Goa","requestedCoordinates":[73.713,15.658],"summary":"Mandrem coastal village arrival east of the beach creek.","sourceIds":["goa-coast-20261111"]},
+    {"id":"morjim","name":"Morjim","aliases":["Morjim Beach"],"region":"North Goa","requestedCoordinates":[73.733,15.628],"summary":"Morjim shore north of the Chapora estuary.","sourceIds":["goa-beaches-20261111"]},
+    {"id":"candolim","name":"Candolim","aliases":["Candolim Beach"],"region":"North Goa","requestedCoordinates":[73.762,15.516],"summary":"Candolim shore south of Calangute.","sourceIds":["goa-coast-20261111","goa-beaches-20261111"]},
+    {"id":"benaulim","name":"Benaulim","aliases":["Benaulim Beach"],"region":"South Goa","requestedCoordinates":[73.919,15.257],"summary":"Benaulim shore south of Colva.","sourceIds":["goa-coast-20261111","goa-beaches-20261111"]},
+    {"id":"varca","name":"Varca","aliases":["Varca Beach"],"region":"South Goa","requestedCoordinates":[73.929,15.231],"summary":"Varca shore south of Benaulim.","sourceIds":["goa-coast-20261111","goa-beaches-20261111"]}
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "researchDate": "2026-11-11",
+  "scope": "Pune-to-curated Maharashtra and Goa beaches: Maharashtra-side northern Trimbak–Jawhar alternative through all confirmed documented plateau–Konkan corridors, plus Goa gateways and neighboring Anashi–Karwar approach to Canacona. Excludes a Gujarat coastal excursion and more southerly Karnataka beach excursions by destination-catchment rule, not arbitrary latitude or maximum detour.",
+  "completeness": "Complete itinerary coverage of the 19 explicitly enumerated confirmed documented-road baseline corridors. This is not a universal discovery or current-opening claim. Proposed/unconfirmed direct links and historic walking passes are individually dispositioned.",
+  "baseline": {
+    "id": "documented-road-v2",
+    "confirmedRoadCoverageComplete": true,
+    "expectedGhatIds": [
+      "amboli-nashik",
+      "kasara",
+      "malshej",
+      "bor",
+      "tamhini",
+      "varandha",
+      "ambenali",
+      "kumbharli",
+      "amba",
+      "anuskura",
+      "bhuibawada",
+      "karul",
+      "phonda",
+      "amboli",
+      "pargad",
+      "tillari",
+      "chorla",
+      "anmod",
+      "anashi"
+    ],
+    "accessLoopGhatIds": [],
+    "eligibility": "Official modern road/visitor-access evidence plus connected OSM car geometry. Gazetteer-only historic trails are not assumed modern roads. Public corridor identity is distinct from current opening.",
+    "northernRule": "Include the documented Maharashtra-side Trimbak–Jawhar connection rather than stopping at Kasara; Gujarat/Daman-facing routes are outside the selected coastal catchment.",
+    "southernRule": "Include neighboring Anashi–Kadra–Karwar as a direct south-Goa approach; do not extend to unrelated Karnataka beach destinations."
+  },
+  "discoverySources": [
+    "maps",
+    "botanical",
+    "tourism-ghats",
+    "sindhudurg-plan",
+    "marathi-ghats",
+    "savantvadi-passes",
+    "trimbak-road",
+    "tillari-road",
+    "goa-roads",
+    "anashi-road"
+  ],
+  "networkAudit": "OSRM car graph tested for each included entry/interior/exit corridor; ferry and collapsed-snap rejection; main-road anchor refinement. Specific proposed/foot-pass audits retained in candidate-road-audit.json. No complete every-road GIS cut-line or field survey is claimed.",
+  "specificBlockedClaims": [
+    {
+      "id": "namkhol-direct",
+      "reason": "The IMD-located Namkhol road point snaps to District Highway 76, but the car response returns over the same 2.1km spur before reaching the connected Mirvel road. Pargad–Mirvel is included on the PWD SH187 baseline; a direct downhill Namkhol spur connection is not invented. This is a graph-link limitation, not a declaration that the public road is legally closed.",
+      "sourceIds": [
+        "tillari-road",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ]
+    },
+    {
+      "id": "mangeli",
+      "reason": "Historic pass is explicitly foot/pack-only in the official Gazetteer. The 2016–17 PWD item451 is a border-road construction provision, not a completion/opening certificate. The constrained car audit requires35.9km through the NH748AA/Chorla-side network between sides only5.0km apart, rather than a direct pass crossing. The modern connector remains outside the confirmed motor-road baseline until continuous public-car eligibility and a corresponding graph connection are evidenced; waterfall approach alone does not qualify.",
+      "sourceIds": [
+        "savantvadi-passes",
+        "mangeli-project",
+        "dodamarg-map",
+        "osm",
+        "osrm"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "gujarat-facing",
+      "name": "Peth–Dharampur / Surgana–Dangs northern passes",
+      "latitude": 20.1,
+      "status": "excluded-destination-catchment",
+      "sourceIds": [
+        "marathi-ghats"
+      ],
+      "rationale": "The official geographic inventory places these corridors on Gujarat/Daman-facing routes, rather than the Maharashtra-side Trimbak–Jawhar coastal connection now included. The documented-road baseline follows Maharashtra-side outlets to the selected Maharashtra coast and direct bordering approaches to Goa; it does not add a Gujarat coastal excursion before returning to Maharashtra. This is an explicit catchment/state-corridor relevance rule, not a latitude or maximum-detour cutoff."
+    },
+    {
+      "id": "amboli-nashik",
+      "name": "Amboli · Trimbak–Jawhar corridor",
+      "aliases": [
+        "Trimbak–Jawhar Ghat",
+        "Jawhar Trimbhak Highway"
+      ],
+      "latitude": 19.944542,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "trimbak-road",
+        "marathi-ghats",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "amboli-nashik-alibag",
+        "amboli-nashik-kihim",
+        "amboli-nashik-kashid",
+        "amboli-nashik-murud",
+        "amboli-nashik-diveagar",
+        "amboli-nashik-shrivardhan",
+        "amboli-nashik-akshi",
+        "amboli-nashik-nagaon",
+        "amboli-nashik-revdanda",
+        "amboli-nashik-korlai"
+      ]
+    },
+    {
+      "id": "kasara",
+      "name": "Kasara Ghat",
+      "aliases": [
+        "Thal Ghat",
+        "Thai Ghat"
+      ],
+      "latitude": 19.701788,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "maps",
+        "botanical",
+        "tourism-ghats",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "kasara-alibag",
+        "kasara-kihim",
+        "kasara-kashid",
+        "kasara-murud",
+        "kasara-diveagar",
+        "kasara-shrivardhan",
+        "kasara-akshi",
+        "kasara-nagaon",
+        "kasara-revdanda",
+        "kasara-korlai"
+      ]
+    },
+    {
+      "id": "malshej",
+      "name": "Malshej Ghat",
+      "aliases": [
+        "Malsej Ghat"
+      ],
+      "latitude": 19.34,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "malshej",
+        "maps",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "malshej-alibag",
+        "malshej-kihim",
+        "malshej-kashid",
+        "malshej-murud",
+        "malshej-diveagar",
+        "malshej-shrivardhan",
+        "malshej-akshi",
+        "malshej-nagaon",
+        "malshej-revdanda",
+        "malshej-korlai",
+        "malshej-harihareshwar"
+      ]
+    },
+    {
+      "id": "naneghat",
+      "name": "Naneghat",
+      "latitude": 19.292,
+      "status": "excluded-nonmotorable-pass",
+      "sourceIds": [
+        "naneghat",
+        "naneghat-trek",
+        "osm",
+        "osrm"
+      ],
+      "evidenceFile": "data/candidate-road-audit.json",
+      "rationale": "Official tourism describes the historic pass as a trek. The constrained car audit reaches the eastern trailhead but requires a 62.2km Malshej/NH61 bypass to reach the western side, not a 3.6km motor descent through the pass. Excluded as the historic walking pass; drive-to-trailhead access is not misrepresented as crossing."
+    },
+    {
+      "id": "trekking-passes",
+      "name": "Bhimashankar / Bhorgiri / historic Pune escarpment trails",
+      "latitude": 19.05,
+      "status": "excluded-no-documented-motor-crossing",
+      "sourceIds": [
+        "marathi-ghats"
+      ],
+      "rationale": "Historical trail inventory is not a contemporary public motor-road inventory. The baseline includes documented modern car corridors and excludes temple/trailhead approach roads that do not establish a car descent of the escarpment. This does not claim that every nearby local road was field-surveyed."
+    },
+    {
+      "id": "bor",
+      "name": "Bor / Khandala Ghat",
+      "aliases": [
+        "Bhor Ghat",
+        "Khandala Ghat",
+        "Bor Ghat"
+      ],
+      "latitude": 18.772659,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "botanical",
+        "tourism-ghats",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "bor-alibag",
+        "bor-kihim",
+        "bor-kashid",
+        "bor-murud",
+        "highway-alibag",
+        "highway-kashid",
+        "highway-diveagar",
+        "bor-diveagar",
+        "bor-shrivardhan",
+        "bor-harihareshwar",
+        "bor-anjarle",
+        "bor-karde",
+        "bor-guhagar",
+        "bor-velneshwar",
+        "bor-akshi",
+        "bor-nagaon",
+        "bor-revdanda",
+        "bor-korlai",
+        "bor-kelshi",
+        "bor-harnai",
+        "bor-ladghar",
+        "bor-bhatye",
+        "bor-devgad"
+      ]
+    },
+    {
+      "id": "tamhini",
+      "name": "Tamhini Ghat",
+      "aliases": [
+        "Tamini Ghat"
+      ],
+      "latitude": 18.449352,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "tamhini",
+        "tourism-ghats",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "tamhini-alibag",
+        "tamhini-kashid",
+        "tamhini-murud",
+        "tamhini-diveagar",
+        "tamhini-shrivardhan",
+        "tamhini-harihareshwar",
+        "tamhini-kihim",
+        "tamhini-anjarle",
+        "tamhini-karde",
+        "tamhini-guhagar",
+        "tamhini-velneshwar",
+        "tamhini-ganpatipule",
+        "tamhini-aare-ware",
+        "tamhini-revdanda",
+        "tamhini-korlai",
+        "tamhini-nagaon",
+        "tamhini-akshi",
+        "tamhini-kelshi",
+        "tamhini-harnai",
+        "tamhini-ladghar",
+        "tamhini-bhatye",
+        "tamhini-devgad",
+        "tamhini-kunkeshwar"
+      ]
+    },
+    {
+      "id": "katraj",
+      "name": "Katraj Ghat",
+      "latitude": 18.4,
+      "status": "excluded-plateau-approach",
+      "sourceIds": [
+        "osm"
+      ],
+      "rationale": "Pune-side upland approach rather than a Western Ghats plateau-to-Konkan descent; tunnel versus old road depends on the returned itinerary."
+    },
+    {
+      "id": "madhe",
+      "name": "Madhe Ghat waterfall / historic descent",
+      "latitude": 18.1975,
+      "status": "excluded-nonmotorable-pass",
+      "sourceIds": [
+        "madhe-waterfall",
+        "osm",
+        "osrm"
+      ],
+      "evidenceFile": "data/candidate-road-audit.json",
+      "rationale": "Official national tourism identifies a waterfall/rappelling feature. The corrected waterfall-location car audit requires a 139.9km detour via Velhe, NH48 and Varandha between sides only 2.5km apart; it does not traverse the historic cliff path. Excluded from the documented motor-road baseline, not a claim that approach roads or future road proposals do not exist."
+    },
+    {
+      "id": "varandha",
+      "name": "Varandha Ghat",
+      "aliases": [
+        "Varandah Ghat"
+      ],
+      "latitude": 18.128131,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "maps",
+        "botanical",
+        "tourism-ghats",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "varandha-diveagar",
+        "varandha-shrivardhan",
+        "varandha-harihareshwar",
+        "varandha-karde",
+        "varandha-anjarle",
+        "varandha-murud",
+        "varandha-kashid",
+        "varandha-alibag",
+        "varandha-kihim",
+        "varandha-guhagar",
+        "varandha-velneshwar",
+        "varandha-ganpatipule",
+        "varandha-aare-ware",
+        "varandha-ladghar",
+        "varandha-harnai",
+        "varandha-kelshi",
+        "varandha-nagaon",
+        "varandha-akshi",
+        "varandha-revdanda",
+        "varandha-korlai",
+        "varandha-bhatye",
+        "varandha-devgad",
+        "varandha-kunkeshwar"
+      ]
+    },
+    {
+      "id": "khambatki",
+      "name": "Khambatki Ghat",
+      "latitude": 18.04,
+      "status": "excluded-plateau-approach",
+      "sourceIds": [
+        "osm"
+      ],
+      "rationale": "NH48 upland approach; not an independent coast crossing. Highway itinerary remains mountainous and is not labeled ghat-free."
+    },
+    {
+      "id": "radtondi",
+      "name": "Radtondi / Rantondi Ghat",
+      "latitude": 17.94,
+      "status": "reconciled-alias",
+      "canonicalGhatId": "ambenali",
+      "sourceIds": [
+        "maps",
+        "botanical",
+        "marathi-ghats"
+      ],
+      "rationale": "The Maharashtra State Marathi Encyclopedia explicitly identifies Fitzgerald / Ambenali alias Radtondi on the Mahad–Poladpur–Mahabaleshwar corridor. Rantondi is retained as historical spelling, not counted as another modern crossing."
+    },
+    {
+      "id": "ambenali",
+      "name": "Ambenali Ghat",
+      "aliases": [
+        "Fitzgerald Ghat",
+        "Radtondi Ghat",
+        "Rantondi Ghat"
+      ],
+      "latitude": 17.930506,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "botanical",
+        "maps",
+        "marathi-ghats",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "ambenali-anjarle",
+        "ambenali-karde",
+        "ambenali-harihareshwar",
+        "ambenali-diveagar",
+        "ambenali-shrivardhan",
+        "ambenali-velneshwar",
+        "ambenali-guhagar",
+        "ambenali-alibag",
+        "ambenali-kihim",
+        "ambenali-kashid",
+        "ambenali-murud",
+        "ambenali-ganpatipule",
+        "ambenali-aare-ware",
+        "ambenali-kelshi",
+        "ambenali-ladghar",
+        "ambenali-harnai",
+        "ambenali-nagaon",
+        "ambenali-akshi",
+        "ambenali-revdanda",
+        "ambenali-korlai",
+        "ambenali-bhatye",
+        "ambenali-devgad",
+        "ambenali-kunkeshwar"
+      ]
+    },
+    {
+      "id": "pasarni",
+      "name": "Pasarni Ghat",
+      "latitude": 17.93,
+      "status": "excluded-plateau-approach",
+      "sourceIds": [
+        "botanical"
+      ],
+      "rationale": "Wai–Panchgani ascent is an upland approach to Mahabaleshwar, not the main westward coast descent. It can be part of an Ambenali journey."
+    },
+    {
+      "id": "kashedi",
+      "name": "Kashedi Ghat",
+      "latitude": 17.89,
+      "status": "excluded-secondary-coastal",
+      "sourceIds": [
+        "tourism-ghats",
+        "ratnagiri-roads"
+      ],
+      "rationale": "A coastal NH66 ridge crossing south of Poladpur, not an independent main plateau–Konkan gateway. May occur downstream of curated trips; no claim that bypass tunnels use the old ghat."
+    },
+    {
+      "id": "kumbharli",
+      "name": "Kumbharli Ghat",
+      "aliases": [
+        "Kumbhali Ghat"
+      ],
+      "latitude": 17.428338,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "maps",
+        "ratnagiri-roads",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "kumbharli-guhagar",
+        "kumbharli-velneshwar",
+        "kumbharli-ganpatipule",
+        "kumbharli-karde",
+        "kumbharli-anjarle",
+        "kumbharli-aare-ware",
+        "kumbharli-ladghar",
+        "kumbharli-harnai",
+        "kumbharli-bhatye",
+        "kumbharli-kelshi",
+        "kumbharli-harihareshwar",
+        "kumbharli-devgad",
+        "kumbharli-kunkeshwar"
+      ]
+    },
+    {
+      "id": "amba",
+      "name": "Amba Ghat",
+      "aliases": [],
+      "latitude": 16.978554,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "maps",
+        "ratnagiri-roads",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "amba-ganpatipule",
+        "amba-aare-ware",
+        "amba-guhagar",
+        "amba-velneshwar",
+        "amba-karde",
+        "amba-tarkarli",
+        "amba-devbag",
+        "amba-vengurla",
+        "amba-shiroda",
+        "amba-arambol",
+        "amba-calangute",
+        "amba-colva",
+        "amba-agonda",
+        "amba-palolem",
+        "amba-bhatye",
+        "amba-devgad",
+        "amba-kunkeshwar",
+        "amba-ladghar",
+        "amba-harnai",
+        "amba-querim",
+        "amba-mandrem",
+        "amba-morjim",
+        "amba-candolim",
+        "amba-benaulim",
+        "amba-varca"
+      ]
+    },
+    {
+      "id": "anuskura",
+      "name": "Anuskura Ghat",
+      "aliases": [
+        "Anuskara Ghat",
+        "Anushkura Ghat"
+      ],
+      "latitude": 16.763,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "anuskura",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "anuskura-aare-ware",
+        "anuskura-ganpatipule",
+        "anuskura-devbag",
+        "anuskura-tarkarli",
+        "anuskura-velneshwar",
+        "anuskura-vengurla",
+        "anuskura-shiroda",
+        "anuskura-arambol",
+        "anuskura-calangute",
+        "anuskura-colva",
+        "anuskura-agonda",
+        "anuskura-palolem",
+        "anuskura-bhatye",
+        "anuskura-devgad",
+        "anuskura-kunkeshwar",
+        "anuskura-querim",
+        "anuskura-mandrem",
+        "anuskura-morjim",
+        "anuskura-candolim",
+        "anuskura-benaulim",
+        "anuskura-varca"
+      ]
+    },
+    {
+      "id": "bhuibawada",
+      "name": "Bhuibawada Ghat",
+      "aliases": [
+        "Bhuibavda Ghat",
+        "Bhuibawda Ghat"
+      ],
+      "latitude": 16.569,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "sindhudurg-plan",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "bhuibawada-tarkarli",
+        "bhuibawada-devbag",
+        "bhuibawada-aare-ware",
+        "bhuibawada-vengurla",
+        "bhuibawada-ganpatipule",
+        "bhuibawada-shiroda",
+        "bhuibawada-arambol",
+        "bhuibawada-calangute",
+        "bhuibawada-colva",
+        "bhuibawada-agonda",
+        "bhuibawada-palolem",
+        "bhuibawada-kunkeshwar",
+        "bhuibawada-devgad",
+        "bhuibawada-bhatye",
+        "bhuibawada-querim",
+        "bhuibawada-mandrem",
+        "bhuibawada-morjim",
+        "bhuibawada-candolim",
+        "bhuibawada-benaulim",
+        "bhuibawada-varca"
+      ]
+    },
+    {
+      "id": "karul",
+      "name": "Karul Ghat",
+      "aliases": [
+        "Gaganbawada–Vaibhavwadi Ghat"
+      ],
+      "latitude": 16.512,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "sindhudurg-plan",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "karul-tarkarli",
+        "karul-devbag",
+        "karul-vengurla",
+        "karul-shiroda",
+        "karul-arambol",
+        "karul-calangute",
+        "karul-colva",
+        "karul-agonda",
+        "karul-palolem",
+        "karul-kunkeshwar",
+        "karul-devgad",
+        "karul-querim",
+        "karul-bhatye",
+        "karul-mandrem",
+        "karul-morjim",
+        "karul-candolim",
+        "karul-benaulim",
+        "karul-varca",
+        "karul-aare-ware"
+      ]
+    },
+    {
+      "id": "phonda",
+      "name": "Phonda Ghat",
+      "aliases": [
+        "Fonda Ghat",
+        "Phondaghat"
+      ],
+      "latitude": 16.358,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "maps",
+        "sindhudurg-plan",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "phonda-tarkarli",
+        "phonda-devbag",
+        "phonda-vengurla",
+        "phonda-shiroda",
+        "phonda-arambol",
+        "phonda-calangute",
+        "phonda-colva",
+        "phonda-agonda",
+        "phonda-palolem",
+        "phonda-kunkeshwar",
+        "phonda-devgad",
+        "phonda-querim",
+        "phonda-mandrem",
+        "phonda-morjim",
+        "phonda-candolim",
+        "phonda-benaulim",
+        "phonda-varca"
+      ]
+    },
+    {
+      "id": "rangna",
+      "name": "Rangna / Hanmant / Ghotga historic passes",
+      "latitude": 16.05,
+      "status": "excluded-historic-foot-pack",
+      "sourceIds": [
+        "savantvadi-passes",
+        "kolhapur-history"
+      ],
+      "rationale": "Official Gazetteer explicitly classifies these escarpment passes as foot/pack-cattle routes, unlike Amboli and Ram cart roads. No contemporary official motor-through corridor is identified in the research baseline; fort approach roads are not treated as crossing the historic pass."
+    },
+    {
+      "id": "mahad-deogad",
+      "name": "Mahadevgad viewpoint road",
+      "latitude": 15.96,
+      "status": "excluded-spur",
+      "sourceIds": [
+        "amboli",
+        "kolhapur-history"
+      ],
+      "rationale": "Amboli-area spur/viewpoint is not treated as an independent plateau–coast road crossing."
+    },
+    {
+      "id": "amboli",
+      "name": "Amboli Ghat",
+      "aliases": [
+        "Parpoli Ghat"
+      ],
+      "latitude": 15.95,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "amboli",
+        "tourism-ghats",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "amboli-vengurla",
+        "amboli-shiroda",
+        "amboli-arambol",
+        "amboli-calangute",
+        "amboli-devbag",
+        "amboli-tarkarli",
+        "amboli-querim",
+        "amboli-morjim",
+        "amboli-mandrem",
+        "amboli-candolim",
+        "amboli-benaulim",
+        "amboli-varca"
+      ]
+    },
+    {
+      "id": "pargad",
+      "name": "Pargad–Mirvel Ghat",
+      "aliases": [
+        "Pargad Ghat",
+        "SH187 crossing"
+      ],
+      "latitude": 15.837127,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "tillari-road",
+        "landslide-sites",
+        "amboli",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "pargad-arambol",
+        "pargad-calangute",
+        "pargad-vengurla",
+        "pargad-shiroda",
+        "pargad-devbag",
+        "pargad-tarkarli",
+        "pargad-morjim",
+        "pargad-mandrem",
+        "pargad-querim",
+        "pargad-candolim"
+      ]
+    },
+    {
+      "id": "ram-talkhat",
+      "name": "Historic Ram / Talkhat passes",
+      "latitude": 15.83,
+      "status": "excluded-historic-unestablished-motor-road",
+      "sourceIds": [
+        "savantvadi-passes",
+        "kolhapur-history",
+        "tillari-road"
+      ],
+      "rationale": "Gazetteers distinguish the historical Ram cart pass and Talkhat foot/pack pass. Modern PWD corridors are separately represented as Amboli, Tillari and Pargad–Mirvel; no independent current named public motor crossing is established for these historical trails. No unproved Ram=Tillari alias is asserted."
+    },
+    {
+      "id": "namkhol-direct",
+      "name": "Direct Namkhol research-site spur descent",
+      "latitude": 15.824,
+      "status": "blocked-through-link",
+      "sourceIds": [
+        "tillari-road",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ],
+      "evidenceFile": "data/candidate-road-audit.json",
+      "rationale": "The IMD-located Namkhol road point snaps to District Highway 76, but the car response returns over the same 2.1km spur before reaching the connected Mirvel road. Pargad–Mirvel is included on the PWD SH187 baseline; a direct downhill Namkhol spur connection is not invented. This is a graph-link limitation, not a declaration that the public road is legally closed."
+    },
+    {
+      "id": "tillari",
+      "name": "Tillari Ghat",
+      "aliases": [
+        "Tilari Ghat",
+        "Tillari Nagar Ghat"
+      ],
+      "latitude": 15.802167,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "tillari-road",
+        "amboli",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "tillari-arambol",
+        "tillari-calangute",
+        "tillari-shiroda",
+        "tillari-vengurla",
+        "tillari-colva",
+        "tillari-morjim",
+        "tillari-candolim",
+        "tillari-mandrem",
+        "tillari-querim",
+        "tillari-benaulim",
+        "tillari-varca"
+      ]
+    },
+    {
+      "id": "mangeli",
+      "name": "Mangeli historic pass / border-road proposal",
+      "latitude": 15.69,
+      "status": "blocked-modern-through-evidence",
+      "sourceIds": [
+        "savantvadi-passes",
+        "mangeli-project",
+        "dodamarg-map",
+        "osm",
+        "osrm"
+      ],
+      "evidenceFile": "data/candidate-road-audit.json",
+      "rationale": "Historic pass is explicitly foot/pack-only in the official Gazetteer. The 2016–17 PWD item451 is a border-road construction provision, not a completion/opening certificate. The constrained car audit requires35.9km through the NH748AA/Chorla-side network between sides only5.0km apart, rather than a direct pass crossing. The modern connector remains outside the confirmed motor-road baseline until continuous public-car eligibility and a corresponding graph connection are evidenced; waterfall approach alone does not qualify."
+    },
+    {
+      "id": "chorla",
+      "name": "Chorla Ghat",
+      "aliases": [],
+      "latitude": 15.6498,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "goa-roads",
+        "goa-road-caution",
+        "landslide-sites",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "chorla-calangute",
+        "chorla-colva",
+        "chorla-arambol",
+        "chorla-shiroda",
+        "chorla-morjim",
+        "chorla-candolim",
+        "chorla-mandrem",
+        "chorla-querim",
+        "chorla-benaulim",
+        "chorla-varca"
+      ]
+    },
+    {
+      "id": "anmod",
+      "name": "Anmod Ghat",
+      "aliases": [
+        "Anmode Ghat"
+      ],
+      "latitude": 15.431,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "goa-roads",
+        "goa-road-caution",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "anmod-colva",
+        "anmod-agonda",
+        "anmod-palolem",
+        "anmod-calangute",
+        "anmod-arambol",
+        "anmod-varca",
+        "anmod-benaulim",
+        "anmod-candolim",
+        "anmod-morjim",
+        "anmod-mandrem",
+        "anmod-querim"
+      ]
+    },
+    {
+      "id": "anashi",
+      "name": "Anashi Ghat",
+      "aliases": [
+        "Anshi Ghat"
+      ],
+      "latitude": 14.993486,
+      "status": "included",
+      "rationale": "Official corridor identity cross-checked against an OSM car-road route with ordered entry/interior/exit anchors; current opening not verified.",
+      "sourceIds": [
+        "anashi-road",
+        "anashi-forest",
+        "osm",
+        "osrm"
+      ],
+      "routeIds": [
+        "anashi-agonda",
+        "anashi-palolem",
+        "anashi-colva",
+        "anashi-calangute",
+        "anashi-arambol",
+        "anashi-varca",
+        "anashi-benaulim",
+        "anashi-candolim",
+        "anashi-morjim",
+        "anashi-mandrem",
+        "anashi-querim"
+      ]
+    }
+  ],
+  "rejectedItineraries": [],
+  "destinationCoverage": {
+    "date": "2026-11-11",
+    "beachesPerGhat": 10,
+    "ghatsPerBeach": 5,
+    "comparedBeachCount": 38,
+    "tableCacheFile": "data/cache/nearest-ten-five-beach-table-1ceb17887be70ee5c50a.json",
+    "routeCount": 303
+  }
+}
