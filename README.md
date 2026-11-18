@@ -4,6 +4,9 @@ A standalone desktop web app for comparing routes from Pune to beaches on the Ko
 
 ## Open the app
 
+Use the [public atlas](https://pranavpeshwe.github.io/konkan-ghats-atlas/) without installation.
+GitHub Pages rebuilds and publishes the app after each push to `main`.
+
 Open `pune_to_konkan.html` in Chrome or Microsoft Edge. No server, API key or installation is required.
 
 The route data and application code are embedded in the HTML. The basemap needs an internet connection.
@@ -38,5 +41,7 @@ Browser tests use installed Chrome and Microsoft Edge.
 `data` contains the source records and cached evidence needed for reproducible builds and tests. Retain these files.
 
 See `DATA-LICENSE.txt` and `THIRD-PARTY-NOTICES.txt` for data and dependency notices. The app includes source references and evidence downloads.
+
+The [source and data archive](https://github.com/PranavPeshwe/konkan-ghats-atlas/archive/refs/heads/main.zip) includes the complete `data` directory and generation scripts.
 
 Route times and terrain samples are estimates, not live navigation or certified road surveys.
